@@ -95,7 +95,7 @@ p{
     padding: 0;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 500px) {
     .launch-logo-image{
         width: 281px;
         height: 281px;
