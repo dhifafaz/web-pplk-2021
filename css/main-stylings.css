@@ -216,7 +216,7 @@ p{
         font-family: var(--font-family-body);
         font-size: 15px;
         font-weight: 400;
-        margin-bottom: 6.5rem;
+        margin-bottom: 6rem;
     }
 
     .forget-password{
@@ -245,18 +245,23 @@ p{
     }
 
     .login-welcome-info{
-        margin-bottom: 2.5rem;
+        margin-bottom: 2rem;
     }
     
     .login-image{
         margin-top: 0;
     }
 
+    .input-field-group{
+        margin-bottom: 2rem;
+    }
+
     .custom-login-btn{
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     .forget-password {
-        margin-bottom: 0.5rem;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
