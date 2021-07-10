@@ -127,8 +127,8 @@ p{
         padding-right: 5rem;
         display: grid;
         place-items: center;
-        height: 100%;
-        margin-top: 40px;
+        min-height: 640px;
+        margin-top: 35px;
     }
 
     .image-container{
@@ -139,7 +139,7 @@ p{
 
     .login-image{
         width: 100%;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .login-welcome-info{
@@ -216,6 +216,13 @@ p{
         font-family: var(--font-family-body);
         font-size: 15px;
         font-weight: 400;
+        margin-bottom: 6.5rem;
+    }
+
+    .forget-password{
+        height: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem ;
     }
 
     .forget-password p{
@@ -225,3 +232,26 @@ p{
         padding: 5px;
     }
 }   
+
+@media (max-width: 360px) {
+    .wrap-login{
+        min-height: 530px;
+        margin-top: 10px !important;
+    }
+
+    .login-welcome-info{
+        margin-bottom: 2.5rem;
+    }
+    
+    .login-image{
+        margin-top: 0;
+    }
+
+    .custom-login-btn{
+        margin-bottom: 1rem;
+    }
+
+    .forget-password {
+        margin-bottom: 0.5rem;
+    }
+}
