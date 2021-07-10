@@ -234,6 +234,11 @@ p{
 }   
 
 @media (max-width: 360px) {
+    .pplk-logo{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
     .wrap-login{
         min-height: 530px;
         margin-top: 10px !important;
