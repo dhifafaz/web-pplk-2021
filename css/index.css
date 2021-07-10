@@ -1,0 +1,97 @@
+.main-wrapper{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: aqua;
+    padding: 0;
+}
+
+@media (max-width: 500px){
+    .head-bar{
+        display: flex;
+        margin: auto;    
+        background-color: var(--page-background-2);
+        padding: 0;
+        align-items: center;
+    }
+    
+    .navbar-brand{
+        padding: 0;
+    }
+
+    .head-menu{
+        float: left;
+        margin-right: 30px;
+        margin-top: 20px;
+        height: 100%;
+        align-items: center;
+    }
+
+    .head-menu-icon{
+        padding: 0;
+        width: 26px;
+        height: 26px;
+        margin-left: 13px;
+    }
+    
+    .head-menu-icon img{
+        width: 26px;
+        height: 26px;
+    }
+
+    .head-menu-profile{
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        margin-left: 21px;
+    }
+
+    .head-menu-profile img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-bar{
+        background-color: var(--page-background-1);
+        bottom: 0;
+        position: fixed;
+        overflow: hidden;
+        height: 75px;
+        border-radius: 20px 20px 0 0;
+        padding: 0;
+    }
+
+    .footer-menu{
+        display: inline-flex;
+        align-items: center;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    .footer-menu-icon{
+        padding: 0;
+        width: 61px;
+        height: 26px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 23px;
+        margin-bottom: 23px;
+        display: grid;
+        place-items: center;
+        color: transparent;
+        text-decoration: none;
+    }
+
+    .icon{
+        stroke: #A8A8A8;
+        font-size: 26px;
+    }
+
+    .icon-label{
+        color: #A8A8A8;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 5px;
+    }
+}

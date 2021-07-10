@@ -89,6 +89,7 @@ p{
 .login-page.display{
     display: flex;
     flex-direction: column;
+    transition: all 0.5s ease-in;
     background-color: var(--page-background-2);
     height: 100% ;
     margin: 0;
@@ -103,8 +104,6 @@ p{
     }
 
     .pplk-logo{
-        top: 0;
-        left: 0;
         margin-top: 20px;
         margin-left: 30px;
         margin-bottom: 0px;
@@ -245,6 +244,7 @@ p{
     }
 
     .login-welcome-info{
+        margin-top: 2rem;
         margin-bottom: 2rem;
     }
     
@@ -257,7 +257,7 @@ p{
     }
 
     .custom-login-btn{
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
     }
 
     .forget-password {
