@@ -16,3 +16,13 @@ jQuery(function($) {
         }
     });
 });
+
+$(window).scroll(function() {     
+    var scroll = $(window).scrollTop();
+    if (scroll > 0) {
+        $(".head-bar").addClass("scrolled");
+    }
+    else {
+        $(".head-bar").removeClass("scrolled");
+    }
+});

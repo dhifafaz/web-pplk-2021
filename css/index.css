@@ -12,18 +12,33 @@
         display: flex;
         margin: auto;    
         background-color: var(--page-background-2);
-        padding: 0;
+        padding-left: 25px;
+        padding-right: 25px;
         align-items: center;
+        height: 90px;
+        top: 0;
+        overflow: hidden;
+        position: fixed;
+        z-index: 99;
+    }
+
+    .scrolled{
+        box-shadow: 0 4px 8px 4px rgb(0 0 0 / 10%);
+        opacity: 1;
+        backdrop-filter: saturate(180%) blur(20px);
+        background-color: rgba(255, 255, 255, 0.8);
+        border-bottom: solid 1px rgba(0,0,0,.08);
+        pointer-events: all;
+        transition: all 300ms ease;
     }
     
     .navbar-brand{
         padding: 0;
+        margin: 0;
     }
 
     .head-menu{
-        float: left;
-        margin-right: 30px;
-        margin-top: 20px;
+        float: right !important;
         height: 100%;
         align-items: center;
     }
@@ -45,6 +60,7 @@
         width: 40px;
         height: 40px;
         margin-left: 21px;
+        margin-right: 10px;
     }
 
     .head-menu-profile img{
@@ -107,8 +123,12 @@
         overflow-x: hidden;
         transition: all 300ms ease;
         z-index: 90;
+        padding-top: 90px;
+        padding-left: 26px;
+        padding-right: 26px;
         padding-bottom: 80px;
         padding-bottom: calc(80px + (constant(safe-area-inset-bottom))*1.1);
         padding-bottom: calc(80px + (env(safe-area-inset-bottom))*1.1);
     }
+
 }

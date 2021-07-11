@@ -100,8 +100,8 @@ p{
     }
 
     .pplk-logo{
-        margin-top: 20px;
-        margin-left: 30px;
+        margin-top: 14px;
+        margin-left: 25px;
         margin-bottom: 0px;
         background-color: #fff;
         width: 59px;
@@ -229,10 +229,6 @@ p{
 }   
 
 @media (max-width: 360px) {
-    .pplk-logo{
-        margin-top: 10px;
-        margin-left: 20px;
-    }
 
     .wrap-login{
         min-height: 530px;
