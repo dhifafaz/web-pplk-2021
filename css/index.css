@@ -3,7 +3,7 @@
     width: 100%;
     overflow: hidden;
     position: relative;
-    background-color: var(--page-background-2);
+    background-color: var(--page-background-1);
     padding: 0px;
 }
 
@@ -11,7 +11,7 @@
     .head-bar{
         display: flex;
         margin: auto;    
-        background-color: var(--page-background-2);
+        background-color: var(--page-background-1);
         padding-left: 25px;
         padding-right: 25px;
         align-items: center;

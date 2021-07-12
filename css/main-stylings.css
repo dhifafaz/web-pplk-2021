@@ -35,7 +35,7 @@ body{
     color: var(--font-color-primary);
     height: 100%;
     display:block;
-    background-color: var(--page-background-2);
+    background-color: var(--page-background-1);
 }
 
 h1{
@@ -86,7 +86,7 @@ p{
     display: flex;
     flex-direction: column;
     transition: all 0.5s ease-in;
-    background-color: var(--page-background-2);
+    background-color: var(--page-background-1);
     height: 100% ;
     margin: 0;
     padding: 0;
