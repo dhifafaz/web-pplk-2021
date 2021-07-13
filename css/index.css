@@ -139,9 +139,9 @@
         gap: 20px;
         -webkit-overflow-scrolling: touch;
         margin-right: -60px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
         padding-right: 0px;
     }
 
@@ -236,17 +236,17 @@
         color: var(--white);
     }
 
-    .new-infos{
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
     .small-slide-menu-item:hover, .small-slide-menu-item:active, .small-slide-menu-item:focus{
         background-color: var(--secondary);
         transform: scale(1.05);
         box-shadow: 0px 5px 10px 5px rgba(57, 145, 201, 0.18);
+    }
+
+    .new-infos{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
 }
