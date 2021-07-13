@@ -14,10 +14,10 @@
 @import url(../vendor/perfect-scrollbar/css/perfect-scrollbar.css);
 
 :root {
-    --primary: #f3c677;
+    --primary: #3991C9;
     --secondary: #709fba;
-    --primary-hover: #38bfb3;
-    --primary-dark: #217069;
+    --white: #fff;
+    --black: #000;
     --primary-color-1: #110f58;
     --primary-color-2: rgba(91, 207, 197, 0.2);
     --font-family-title: Playfair Display, serif;

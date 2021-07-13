@@ -26,7 +26,7 @@
         box-shadow: 0 4px 8px 4px rgb(0 0 0 / 10%);
         opacity: 1;
         backdrop-filter: saturate(180%) blur(20px);
-        background-color: #fff;
+        background-color: var(--white);
         /* background-color: rgba(255, 255, 255, 0.8); */
         pointer-events: all;
         transition: all 300ms ease;
@@ -114,9 +114,9 @@
     }
 
     a.active, .active svg path, li:hover svg path,li a:hover {
-        color: #3991C9 !important;
-        fill: #3991C9 !important;
-        stroke: #fff;
+        color: var(--primary) !important;
+        fill: var(--primary) !important;
+        stroke: var(--white);
         stroke-width: 1;
     }
 
@@ -210,5 +210,28 @@
     .card img{
         width: 84px;
         height:62px;
+    }
+
+    .small-slide-menu-item{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        flex: 0 0 auto;
+        align-items: center;
+        text-align: center;
+        background-color: var(--primary);
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        color: var(--white);
+        text-decoration: none;
+        font-family: var(--font-family-body);
+        font-size: 13px;
+        font-weight: 400;
+        box-shadow: 0px 5px 10px 1px rgba(57, 145, 201, 0.18);
+    }
+    .small-slide-menu-item:hover{
+        text-decoration: none;
+        color: var(--white);
     }
 }
