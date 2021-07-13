@@ -166,9 +166,10 @@
         color: var(--font-color-primary);
     }
 
-    .card:hover{
+    .card:hover, .card:active, .card:focus{
         text-decoration: none;
         color: var(--font-color-primary) !important;
+        transform: scale(1.05);
     }
 
     .card-body{
@@ -234,4 +235,18 @@
         text-decoration: none;
         color: var(--white);
     }
+
+    .new-infos{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .small-slide-menu-item:hover, .small-slide-menu-item:active, .small-slide-menu-item:focus{
+        background-color: var(--secondary);
+        transform: scale(1.05);
+        box-shadow: 0px 5px 10px 5px rgba(57, 145, 201, 0.18);
+    }
+
 }
