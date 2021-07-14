@@ -1,0 +1,21 @@
+.hd-menu-bio {
+    margin-left: 351px;
+    margin-top: 33px;
+    margin-right: 37px;
+}
+
+@media (max-width: 400px) {
+    .hd-menu-bio {
+        margin-left: 310px;
+        margin-top: 33px;
+        margin-right: 37px;
+    }
+}
+
+@media (max-width: 350px) {
+    .hd-menu-bio {
+        margin-left: 270px;
+        margin-top: 33px;
+        margin-right: 37px;
+    }
+}
