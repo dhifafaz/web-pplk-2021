@@ -5,7 +5,7 @@
         top: 0;       
         padding-left: 25px;
         padding-right: 25px;   
-        border-radius: 15px;
+        border-radius: 15px !important;
         overflow: hidden;
         position: fixed;
         z-index: 99;        
@@ -15,25 +15,25 @@
         z-index: 2 !important;
         position: absolute;
         top: 36px;
-        color: var(--secondary) !important;
+        color: var(--primary) !important;
     }
 
-    .nav-back img {
-        position: relative;
+    .carousel-item img {
+        position: fixed;
         width: 500px;
-        height: 292px;
-        left: -25px !important;
+        height: 292px !important;        
         top: -26px !important;
         z-index: 1;
-    }
-    
+        border-radius: 15px;
+    }       
+
     .navback-home{      
         font-family: var(--font-family-body);
         text-decoration: none;        
     }       
 
     .page-content {        
-        padding-top: 259px;       
+        padding-top: 292px;       
     }
 
     .kuliah-itera{     
