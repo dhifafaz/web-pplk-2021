@@ -1,0 +1,77 @@
+.hd-menu-bio {
+    margin-left: 351px;
+    margin-top: 33px;
+    margin-right: 37px;
+}
+
+.bio-profile {
+    margin-left: 152px;
+    margin-bottom: 20px;
+}
+
+.bio-form {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+input {
+    border: none;
+    border-bottom: 1.5px solid #E0E0E0;
+    width: 100%;
+    outline: none;
+    background: transparent;
+}
+
+label {
+    font-size: 13px;
+    color: gray;
+}
+
+.bio-input {
+    margin-bottom: 16px;
+}
+
+.bio-content {
+    overflow-x: hidden;
+    transition: all 300ms ease;
+    z-index: 90;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 80px;
+    padding-bottom: calc(80px + (constant(safe-area-inset-bottom))*1.1);
+    padding-bottom: calc(80px + (env(safe-area-inset-bottom))*1.1);
+}
+
+@media (max-width: 400px) {
+    .hd-menu-bio {
+        margin-left: 310px;
+        margin-top: 33px;
+        margin-right: 37px;
+    }
+
+    .bio-profile {
+        margin-left: 125px;
+        margin-bottom: 20px;
+    }
+
+    .bio-input {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 350px) {
+    .hd-menu-bio {
+        margin-left: 270px;
+        margin-top: 33px;
+        margin-right: 37px;
+    }
+
+    .bio-profile {
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+
+    .bio-input {
+        margin-bottom: 16px;
+    }
+}
