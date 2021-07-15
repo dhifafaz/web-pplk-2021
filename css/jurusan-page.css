@@ -6,34 +6,32 @@
         padding-left: 25px;
         padding-right: 25px;   
         border-radius: 15px !important;
-        overflow: hidden;
-        position: fixed;
-        z-index: 99;        
+        overflow: hidden;    
+        z-index: 2;          
     }
 
-    .nav-back a{
-        z-index: 2 !important;
+    .nav-back a{        
         position: absolute;
         top: 36px;
-        color: var(--primary) !important;
+        color: var(--primary) !important;         
     }
 
-    .carousel-item img {
-        position: fixed;
-        width: 500px;
-        height: 292px !important;        
+    .nav-back-home{      
+        font-family: var(--font-family-body) !important;
+        text-decoration: none; 
+        margin-left: 27px;  
+        padding-top: 2px;
+    } 
+
+    .carousel-item img {        
+        width: 100%;                
         top: -26px !important;
         z-index: 1;
         border-radius: 15px;
-    }       
-
-    .navback-home{      
-        font-family: var(--font-family-body);
-        text-decoration: none;        
-    }       
+    }                 
 
     .page-content {        
-        padding-top: 292px;       
+        padding-top: 270px;       
     }
 
     .kuliah-itera{     
@@ -47,13 +45,8 @@
         font-size: 10px;
     }
 
-    .jurusan-flexbox {
-        display: inline-flex;
-        position: absolute;
+    .justify-content-between a{         
         font-weight: 600;
-        gap: 60px;
-    }
-    .jurusan-flexbox a{ 
         width: 111px;    
         height: 32px;                  
         text-decoration: none !important;
@@ -65,11 +58,42 @@
         padding-bottom: 9px;
         padding-left: 3px;
         padding-right: 3px;
+        margin-bottom: 15px;
     }
 
     .button-hover:hover {
         background-color: var(--primary);
         color: var(--white);
-        border-radius: 10px;
+        border-radius: 10px;        
     }
+
+    .card{              
+        display: flex; 
+        flex-direction: column !important; 
+        height: relative; 
+        padding: 0px; 
+        height: 100%;       
+    }
+    .card-img-top{                
+        border-radius: 15px;
+        width: 360px !important; 
+        max-width: 360px !important;    
+        height: 100% !important;    
+    }
+
+    .card-body {
+        max-width: 360px !important; 
+        padding-left: 47px !important;
+    }
+
+    .card-title{
+        padding-top: 15px;        
+        font-size: 16px;
+    }
+
+    .card-text{
+        margin-bottom: 0px;
+        width: 380px;
+    }
+
 }
