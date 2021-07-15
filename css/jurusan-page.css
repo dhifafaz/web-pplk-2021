@@ -5,7 +5,7 @@
         padding-left: 25px;
         padding-right: 25px;   
         border-radius: 15px !important;
-        overflow: scroll;
+        overflow: hidden;
         z-index: 99;        
     }
 
@@ -50,6 +50,7 @@
         font-weight: 600;
         gap: 60px;
     }
+    
     .jurusan-flexbox a{ 
         width: 111px;    
         height: 32px;                  
