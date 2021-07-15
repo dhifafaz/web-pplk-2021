@@ -1,0 +1,75 @@
+@media (max-width: 500px){
+    .nav-back{
+        display: flex;
+        height: 241px;   
+        top: 0;       
+        padding-left: 25px;
+        padding-right: 25px;   
+        border-radius: 15px !important;
+        overflow: hidden;
+        position: fixed;
+        z-index: 99;        
+    }
+
+    .nav-back a{
+        z-index: 2 !important;
+        position: absolute;
+        top: 36px;
+        color: var(--primary) !important;
+    }
+
+    .carousel-item img {
+        position: fixed;
+        width: 500px;
+        height: 292px !important;        
+        top: -26px !important;
+        z-index: 1;
+        border-radius: 15px;
+    }       
+
+    .navback-home{      
+        font-family: var(--font-family-body);
+        text-decoration: none;        
+    }       
+
+    .page-content {        
+        padding-top: 292px;       
+    }
+
+    .kuliah-itera{     
+        font-family: var(--font-family-title); 
+        font-weight: 700 !important;
+        font-size: 20px;
+    }
+
+    .page-content p{        
+        font-weight: 300;
+        font-size: 10px;
+    }
+
+    .jurusan-flexbox {
+        display: inline-flex;
+        position: absolute;
+        font-weight: 600;
+        gap: 60px;
+    }
+    .jurusan-flexbox a{ 
+        width: 111px;    
+        height: 32px;                  
+        text-decoration: none !important;
+        font-family: var(--font-family-body);
+        font-size: 13px; 
+        text-align: center; 
+        color: var(--grey); 
+        padding-top: 8px;
+        padding-bottom: 9px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .button-hover:hover {
+        background-color: var(--primary);
+        color: var(--white);
+        border-radius: 10px;
+    }
+}
