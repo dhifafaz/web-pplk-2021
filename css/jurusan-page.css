@@ -72,7 +72,7 @@
         background-color: transparent;
     }
 
-    .button-hover:hover {
+    .button-jurusan:hover {
         background-color: var(--primary);
         color: var(--white);
         border-radius: 10px;        
@@ -82,6 +82,10 @@
         margin-top: 20px;
         margin-bottom: 20px;
         display: none;
+    }
+
+    .show-card{
+        display: flex;
     }
 
     .card{              
