@@ -72,14 +72,13 @@
     }
     .card-img-top{                
         border-radius: 15px;
-        width: 360px !important; 
-        max-width: 360px !important;    
+        width: 100% !important;   
         height: 100% !important;    
     }
 
-    .card-body {
-        max-width: 360px !important; 
+    .card-body {    
         max-height: 100%;
+        max-width: 100%;
         padding-left: 20px ;
         padding-right: 20px ;
         padding-bottom: 20px;
