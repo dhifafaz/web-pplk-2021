@@ -1,13 +1,11 @@
 @media (max-width: 500px){
     .nav-back{
-        display: flex;
-        height: 241px;   
+        display: flex;  
         top: 0;       
         padding-left: 25px;
         padding-right: 25px;   
         border-radius: 15px !important;
-        overflow: hidden;
-        position: fixed;
+        overflow: scroll;
         z-index: 99;        
     }
 
@@ -19,9 +17,7 @@
     }
 
     .carousel-item img {
-        position: fixed;
-        width: 500px;
-        height: 292px !important;        
+        width: 100%;    
         top: -26px !important;
         z-index: 1;
         border-radius: 15px;
@@ -33,7 +29,8 @@
     }       
 
     .page-content {        
-        padding-top: 292px;       
+        margin-top: 20px;     
+        padding-top: 0;  
     }
 
     .kuliah-itera{     
