@@ -26,7 +26,6 @@
     <body>
         <div class="main-wrapper">
             <!--NavBar-->
-            <div class="navbar p-0">
                 <div class="head-menu row">
                     <a class="hd-menu-bio" href="edit">
                         <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +34,7 @@
                         </svg>                        
                     </a>
                 </div>
-            </div>
+            
             <!-- FootBar -->
             <div class="navbar p-0">
                 <ul class="container-fluid footer-bar">
@@ -115,41 +114,47 @@
                 </ul>
             </div>
             <!--Content-->  
-            <div class="bio-content">
+            <div class="bio-content container-fluid justify-content-between">
                 <div class="bio-profile">
                     <img src="../assets/images/jhonnysins.png" alt="photo-profile" >
                 </div>
-                <form>
-                    <div class="bio-form">
+                <form class="col-sm-12 bio-form m-sm-auto container-fluid justify-content-between fle" method="POST">
+                        
                         <div class="row bio-input">
-                            <label for="email">Email</label>
+                            <label class="form-label" for="email">Email</label>
                             <input type="text" placeholder="Email" disabled>
                         </div>
+                        
                         <div class="row bio-input">
-                            <label for="nama">Nama</label>
+                            <label class="form-label" for="nama">Nama</label>
                             <input type="text" placeholder="Nama" disabled>
                         </div>
+
                         <div class="row bio-input">
-                            <label for="nim">NIM</label>
+                            <label class="form-label" for="nim">NIM</label>
                             <input type="text" placeholder="Nomor Induk Mahasiswa" disabled>
                         </div>
+
                         <div class="row bio-input">
-                            <label for="prodi">Prodi</label>
+                            <label class="form-label" for="prodi">Prodi</label>
                             <input type="text" placeholder="Program Studi" disabled>
                         </div>
+
                         <div class="row bio-input">
-                            <label for="golongan darah">Golongan Darah</label>
+                            <label class="form-label" for="golongan darah">Golongan Darah</label>
                             <input type="text" placeholder="Golongan Darah" disabled>
                         </div>
+
                         <div class="row bio-input">
-                            <label for="alamat">Alamat</label>
+                            <label class="form-label" for="alamat">Alamat</label>
                             <input type="text" placeholder="Alamat" disabled>
                         </div>
+
                         <div class="row bio-input">
-                            <label for="nama">Riwayat Penyakit</label>
+                            <label class="form-label" for="nama">Riwayat Penyakit</label>
                             <input type="text" placeholder="Riwayat Penyakit" disabled>
                         </div>
-                    </div>
+                    
                 </form>
             </div>
         </div>
