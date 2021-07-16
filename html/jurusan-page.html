@@ -157,17 +157,17 @@
             var btns = header.getElementsByClassName("button-jurusan");
             for (var i = 0; i < btns.length; i++) {
                 btns[i].addEventListener("click", function() {                   
-                    var sains = document.getElementsByClassName("sains");
-                    var jtpi = document.getElementsByClassName("jtpi");
-                    var jtik = document.getElementsByClassName("jtik");
+                    // var sains = document.getElementsByClassName("sains");
+                    // var jtpi = document.getElementsByClassName("jtpi");
+                    // var jtik = document.getElementsByClassName("jtik");
 
-                    if (i === 0) {
-                        sains.className += " show-card";
-                        // document.getElementById("sains").className += " show-card";
-                    }
-                    else {
-                        sains.className.replace(" show-card", "");
-                    }
+                    // if (i === 0) {
+                    //     sains.className += " show-card";
+                    //     // document.getElementById("sains").className += " show-card";
+                    // }
+                    // else {
+                    //     sains.className.replace(" show-card", "");
+                    // }
                     
                     var current = document.getElementsByClassName("active-jurusan");
                     current[0].className = current[0].className.replace(" active-jurusan", "");
