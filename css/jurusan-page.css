@@ -51,9 +51,13 @@
     .small-jurusan-menu{
         margin-top: 15px;
         margin-bottom: 0;
+        display: flex;
+        flex-wrap: unset;
+        width: 100%;
+        justify-content:space-between !important;
     }
 
-    .justify-content-between button{   
+    .small-jurusan-menu .nav-item button{   
         display: grid;
         place-items: center;      
         font-weight: 600;
@@ -72,20 +76,19 @@
         background-color: transparent;
     }
 
-    .active-jurusan, .button-jurusan:hover {
+    .active, .button-jurusan:hover {
         background-color: var(--primary) !important;
         color: var(--white) !important;
-        border-radius: 10px;        
+        border-radius: 10px !important;        
     }
 
     .custom-card-jurusan{
         margin-top: 20px;
         margin-bottom: 20px;
-        display: none;
     }
 
-    .show-card{
-        display: flex;
+    .tab-content .active{
+        background-color: transparent !important;
     }
 
     .card{              
@@ -95,6 +98,7 @@
         padding: 0px; 
         height: 100%;       
     }
+
     .card-img-top{                
         border-radius: 15px;
         width: 100% !important;   
