@@ -33,10 +33,10 @@
                     <a class="navback-home" href="../html/index.html">
                         <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M16.791 20.5832C16.791 20.5832 9.20768 16.0938 9.20768 12.9998C9.20768 9.90692 16.791 5.4165 16.791 5.4165" stroke="#3991C9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>                                                  
-                        Beranda                       
-                    </a>                      
-                </div>   
+                        </svg> 
+                        Beranda                                                                                                                              
+                    </a>                                     
+                </div>
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -55,27 +55,96 @@
 
             <!--Content-->
             <div class="page-content">
-                <h2 class="kuliah-itera">Kuliah di ITERA</h2>
-                    <p>
-                        Jurusan di ITERA setara dengan fakultas. Masing-masing jurusan memiliki program studi yang berbeda-beda. Semua program studi di ITERA merupakan kelompok Saintek (IPA) dimana ITERA hanya menerima siswa dari jurusan IPA pada SNMPTN. Meskipun demikian, siswa dari jurusan IPS masih dapat mendaftar ke ITERA melalui jalur SBMTPN dan memilih UTBK golongan Saintek.
-                    </p>
-                <h2 class="kuliah-itera"> 3 Jurusan yang terdapat di ITERA</h2>
+                <div class="first-custom">
+                    <!--Title Pertama-->
+                    <div class="main-text">
+                        <h2 class="jurusan-title-text">Kuliah di ITERA</h2>
+                        <p>
+                            Jurusan di ITERA setara dengan fakultas. Masing-masing jurusan memiliki program studi yang berbeda-beda. Semua program studi di ITERA merupakan kelompok Saintek (IPA) dimana ITERA hanya menerima siswa dari jurusan IPA pada SNMPTN. Meskipun demikian, siswa dari jurusan IPS masih dapat mendaftar ke ITERA melalui jalur SBMTPN dan memilih UTBK golongan Saintek.
+                        </p>
+                    </div>
+                    <!--Title Kedua-->                    
+                    <h2 class="jurusan-title-text"> 3 Jurusan yang terdapat di ITERA</h2>
 
-                <!-- Small Slide Menu -->
-                <div class="jurusan-flexbox">
-                    <a href="/info-pplk" class="button-hover">
-                        Jurusan Sains
-                    </a>
+                    <!-- Small Menu -->
+                    <div class="small-jurusan-menu d-flex justify-content-between" id="small-menu">
+                        <button href="../html/jurusan-page.html" class="button-jurusan active-jurusan">
+                            Jurusan Sains
+                        </button>
 
-                    <a href="/guide-pplk" class="button-hover">
-                        Jurusan JTPI
-                    </a>
+                        <button href="/guide-pplk" class="button-jurusan">
+                            Jurusan JTPI
+                        </button>
 
-                    <a href="/logo-pplk "class="button-hover">
-                        Jurusan JTIK
-                    </a>
-                   
+                        <button href="/logo-pplk "class="button-jurusan">
+                            Jurusan JTIK
+                        </button>                   
+                    </div>
                 </div>
+                
+
+                <!--Content 1-->                
+                    <div class="sains custom-card-jurusan justify-content-center info-jurusan show-card" id="sains">
+                        <div class="card w-100">
+                            <img src="../assets/images/jurusan-poster1.png" class="card-img-top">
+                            <div class="card-body">
+                                <h2 class="card-title">
+                                    Visi
+                                </h2>
+                                <p class="card-text">
+                                    Menjadi perguruan tinggi yang unggul, bermartabat, mandiri dan diakui dunia, serta berkontribusi dalam perubahan yang mampu meningkatkan kesejahteraan bangsa Indonesia dan dunia dengan memberdayakan potensi yang ada di wilayah Sumatera dan Sekitarnya.
+                                </p>
+                                <h2 class="card-title">
+                                    Misi
+                                </h2>
+                                <p class="card-text">
+                                    Menjadi perguruan tinggi yang unggul, bermartabat, mandiri dan diakui dunia, serta berkontribusi dalam perubahan yang mampu meningkatkan kesejahteraan bangsa Indonesia dan dunia dengan memberdayakan potensi yang ada di wilayah Sumatera dan Sekitarnya.
+                                </p>
+                            </div>
+                        </div>                                               
+                    </div>
+                <!--Content 2-->
+                <div class="jtpi custom-card-jurusan justify-content-center info-jurusan" id="jtpi">
+                    <div class="card w-100">
+                        <img src="../assets/images/jurusan-poster1.png" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">
+                                Visi
+                            </h2>
+                            <p class="card-text">
+                                Menjadi perguruan tinggi yang unggul, bermartabat, mandiri dan diakui dunia, serta berkontribusi dalam perubahan yang mampu meningkatkan kesejahteraan bangsa Indonesia dan dunia dengan memberdayakan potensi yang ada di wilayah Sumatera dan Sekitarnya.
+                            </p>
+                            <h2 class="card-title">
+                                Misi
+                            </h2>
+                            <p class="card-text">
+                                Menjadi perguruan tinggi yang unggul, bermartabat, mandiri dan diakui dunia, serta berkontribusi dalam perubahan yang mampu meningkatkan kesejahteraan bangsa Indonesia dan dunia dengan memberdayakan potensi yang ada di wilayah Sumatera dan Sekitarnya.
+                            </p>
+                        </div>
+                    </div>                                               
+                </div>
+                <!--Content 3-->
+                <div class="jtik custom-card-jurusan justify-content-center info-jurusan" id="jtik">
+                    <div class="card w-100">
+                        <img src="../assets/images/jurusan-poster1.png" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">
+                                Visi
+                            </h2>
+                            <p class="card-text">
+                                Menjadi perguruan tinggi yang unggul, bermartabat, mandiri dan diakui dunia, serta berkontribusi dalam perubahan yang mampu meningkatkan kesejahteraan bangsa Indonesia dan dunia dengan memberdayakan potensi yang ada di wilayah Sumatera dan Sekitarnya.
+                            </p>
+                            <h2 class="card-title">
+                                Misi
+                            </h2>
+                            <p class="card-text">
+                                Menjadi perguruan tinggi yang unggul, bermartabat, mandiri dan diakui dunia, serta berkontribusi dalam perubahan yang mampu meningkatkan kesejahteraan bangsa Indonesia dan dunia dengan memberdayakan potensi yang ada di wilayah Sumatera dan Sekitarnya.
+                            </p>
+                        </div>
+                    </div>                                               
+                </div>
+                
+                
             </div>
         </div>
 
@@ -83,5 +152,28 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="../js/bootstrap.bundle.js"></script>
         <script src="../js/custom.js"></script>
+        <script>
+            var header = document.getElementById("small-menu");
+            var btns = header.getElementsByClassName("button-jurusan");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function() {                   
+                    var sains = document.getElementsByClassName("sains");
+                    var jtpi = document.getElementsByClassName("jtpi");
+                    var jtik = document.getElementsByClassName("jtik");
+
+                    if (i === 0) {
+                        sains.className += " show-card";
+                        // document.getElementById("sains").className += " show-card";
+                    }
+                    else {
+                        sains.className.replace(" show-card", "");
+                    }
+                    
+                    var current = document.getElementsByClassName("active-jurusan");
+                    current[0].className = current[0].className.replace(" active-jurusan", "");
+                    this.className += " active-jurusan";
+                });
+            }
+        </script>
     </body>
 </html>
