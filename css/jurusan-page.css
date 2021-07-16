@@ -72,9 +72,9 @@
         background-color: transparent;
     }
 
-    .button-jurusan:hover {
-        background-color: var(--primary);
-        color: var(--white);
+    .active-jurusan, .button-jurusan:hover {
+        background-color: var(--primary) !important;
+        color: var(--white) !important;
         border-radius: 10px;        
     }
 
