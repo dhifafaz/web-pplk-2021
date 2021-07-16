@@ -24,7 +24,11 @@
         top: -26px !important;
         z-index: 1;
         border-radius: 15px;
-    }                 
+    }
+    
+    .carousel-inner .active{
+        background-color: transparent !important;
+    }   
 
     .page-content {        
         margin-top: 20px;     
@@ -74,12 +78,14 @@
         border: none;
         outline: none;
         background-color: transparent;
+        border-radius: 10px;
     }
 
     .active, .button-jurusan:hover {
         background-color: var(--primary) !important;
         color: var(--white) !important;
-        border-radius: 10px !important;        
+        border-radius: 10px !important;
+        box-shadow: 0px 5px 10px 1px rgb(57 145 201 / 18%);        
     }
 
     .custom-card-jurusan{
