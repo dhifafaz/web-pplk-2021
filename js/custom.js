@@ -26,4 +26,3 @@ $(window).scroll(function() {
         $(".head-bar").removeClass("scrolled");
     }
 });
-
