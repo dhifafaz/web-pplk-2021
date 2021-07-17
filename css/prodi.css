@@ -24,7 +24,12 @@
         top: -26px !important;
         z-index: 1;
         border-radius: 15px;
-    }                 
+    } 
+    
+    .carousel-inner .active{
+        background-color: transparent !important;
+        box-shadow: none !important;
+    } 
 
     .page-content {        
         margin-top: 20px;     
@@ -76,17 +81,21 @@
         border: none;
         outline: none;
         background-color: transparent;
+        border-radius: 10px;
     }
 
     .active, .button-prodi:hover {
         background-color: var(--primary) !important;
         color: var(--white) !important;
-        border-radius: 10px !important;        
+        border-radius: 10px !important;
+        box-shadow: 0px 5px 10px 1px rgb(57 145 201 / 18%);        
     }
 
     .custom-card-prodi{
         margin-top: 20px;
         margin-bottom: 20px;
+        background-color: transparent !important;
+        box-shadow: none !important;
     }
 
     .tab-content .active{
@@ -217,6 +226,13 @@
         background-color: var(--secondary);
         transform: scale(1.03);
         box-shadow: 0px 5px 10px 5px rgba(57, 145, 201, 0.18);
+    }
+}
+
+@media (max-width: 320px) {
+    .small-prodi-menu .nav-item button{ 
+        width: 100%;
+        height: 100%;
     }
 }
 
