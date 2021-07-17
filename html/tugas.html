@@ -153,67 +153,160 @@
                 </div>
 
                 <!-- small bar menu -->
-                <div class="container-fluid tugas-menu d-flex justify-content-between px-0">
-                    <a class="flex-fill" href="#">
-                        <div class="tugas-menu-item active tugas-main-text">
+                <ul class="container-fluid tugas-menu d-flex justify-content-between px-0 nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="tugas-menu-item active tugas-main-text" aria-selected="true" role="tab" data-bs-toggle="pill" data-bs-target="#new-task" >
                             New Task
-                        </div>
-                    </a>
-                    <a class="flex-fill" href="#">
-                        <div class="tugas-menu-item tugas-main-text">
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="tugas-menu-item tugas-main-text" aria-selected="true" role="tab" data-bs-toggle="pill" data-bs-target="#in-progress">
                             In Progress
-                        </div>
-                    </a>
-                    <a class="flex-fill" href="#">
-                        <div class="tugas-menu-item tugas-main-text">
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="tugas-menu-item tugas-main-text" aria-selected="true" role="tab" data-bs-toggle="pill" data-bs-target="#completed">
                             Completed
-                        </div>
-                    </a>
-                </div>
+                        </button>
+                    </li>
+                </ul>
 
-                <!-- card tugas -->
-                <div class="tugas-list">
-                    <!-- cards start -->
-                    <a href="#">
-                        <div class="tugas-list-card">
-                            <img class="tugas-list-image" src="../assets/images/jurusan-poster2.png">
-                            <div class="tugas-list-content">
-                                <p class="tugas-list-date tugas-main-text">
-                                    6 April
-                                </p>
-                                <p class="tugas-list-assigned tugas-main-text">
-                                    Assigned to You
-                                </p>
-                                <p class="tugas-list-title tugas-main-title">
-                                    Tugas Membuat Laporan Pertanggung Jawaban
-                                </p>
-                                <p class="tugas-list-status tugas-main-text">
-                                    New Task
-                                </p>
+                <div class="tab-content" id="pills-tabContent">
+                    <!-- card tugas -->
+                    <div class="tab-pane active tugas-list" role="tabpanel" id="new-task">
+                        <!-- cards start -->
+                        <a href="#">
+                            <div class="tugas-list-card">
+                                <img class="tugas-list-image" src="../assets/images/logo-rebahan.png">
+                                <div class="tugas-list-content">
+                                    <p class="tugas-list-date tugas-main-text">
+                                        6 April
+                                    </p>
+                                    <p class="tugas-list-assigned tugas-main-text">
+                                        Assigned to You
+                                    </p>
+                                    <p class="tugas-list-title tugas-main-title">
+                                        Tugas Membuat Laporan Pertanggung Jawaban
+                                    </p>
+                                    <p class="tugas-list-status tugas-main-text">
+                                        New Task
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="tugas-list-card">
-                            <img class="tugas-list-image" src="../assets/images/jurusan-poster1.png">
-                            <div class="tugas-list-content">
-                                <p class="tugas-list-date tugas-main-text">
-                                    12 April
-                                </p>
-                                <p class="tugas-list-assigned tugas-main-text">
-                                    Assigned to You
-                                </p>
-                                <p class="tugas-list-title tugas-main-title">
-                                    Tugas Membuat Yel-Yel Kelompok
-                                </p>
-                                <p class="tugas-list-status tugas-main-text">
-                                    New Task
-                                </p>
+                        </a>
+                        <a href="#">
+                            <div class="tugas-list-card">
+                                <img class="tugas-list-image" src="../assets/images/jurusan-poster1.png">
+                                <div class="tugas-list-content">
+                                    <p class="tugas-list-date tugas-main-text">
+                                        12 April
+                                    </p>
+                                    <p class="tugas-list-assigned tugas-main-text">
+                                        Assigned to You
+                                    </p>
+                                    <p class="tugas-list-title tugas-main-title">
+                                        Tugas Membuat Yel-Yel Kelompok
+                                    </p>
+                                    <p class="tugas-list-status tugas-main-text">
+                                        New Task
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                    <!-- cards end -->
+                        </a>
+                        <!-- cards end -->
+                    </div>
+
+                    <!-- card tugas -->
+                    <div class="tab-pane active tugas-list" role="tabpanel" id="in-progress">
+                        <!-- cards start -->
+                        <a href="#">
+                            <div class="tugas-list-card">
+                                <img class="tugas-list-image" src="../assets/images/jhonnysins.png">
+                                <div class="tugas-list-content">
+                                    <p class="tugas-list-date tugas-main-text">
+                                        6 April
+                                    </p>
+                                    <p class="tugas-list-assigned tugas-main-text">
+                                        Assigned to You
+                                    </p>
+                                    <p class="tugas-list-title tugas-main-title">
+                                        Tugas Membuat Laporan Pertanggung Jawaban
+                                    </p>
+                                    <p class="tugas-list-status tugas-main-text">
+                                        New Task
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tugas-list-card">
+                                <img class="tugas-list-image" src="../assets/images/jurusan-poster1.png">
+                                <div class="tugas-list-content">
+                                    <p class="tugas-list-date tugas-main-text">
+                                        12 April
+                                    </p>
+                                    <p class="tugas-list-assigned tugas-main-text">
+                                        Assigned to You
+                                    </p>
+                                    <p class="tugas-list-title tugas-main-title">
+                                        Tugas Membuat Yel-Yel Kelompok
+                                    </p>
+                                    <p class="tugas-list-status tugas-main-text">
+                                        New Task
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- cards end -->
+                    </div>
+
+                    <!-- card tugas -->
+                    <div class="tab-pane active tugas-list" role="tabpanel" id="completed">
+                        <!-- cards start -->
+                        <a href="#">
+                            <div class="tugas-list-card">
+                                <img class="tugas-list-image" src="../assets/images/LOGO PPLK.png">
+                                <div class="tugas-list-content">
+                                    <p class="tugas-list-date tugas-main-text">
+                                        6 April
+                                    </p>
+                                    <p class="tugas-list-assigned tugas-main-text">
+                                        Assigned to You
+                                    </p>
+                                    <p class="tugas-list-title tugas-main-title">
+                                        Tugas Membuat Laporan Pertanggung Jawaban
+                                    </p>
+                                    <p class="tugas-list-status tugas-main-text">
+                                        New Task
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tugas-list-card">
+                                <img class="tugas-list-image" src="../assets/images/jurusan-poster1.png">
+                                <div class="tugas-list-content">
+                                    <p class="tugas-list-date tugas-main-text">
+                                        12 April
+                                    </p>
+                                    <p class="tugas-list-assigned tugas-main-text">
+                                        Assigned to You
+                                    </p>
+                                    <p class="tugas-list-title tugas-main-title">
+                                        Tugas Membuat Yel-Yel Kelompok
+                                    </p>
+                                    <p class="tugas-list-status tugas-main-text">
+                                        New Task
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- cards end -->
+                    </div>
+
                 </div>
+               
+                
 
 
             </div>
