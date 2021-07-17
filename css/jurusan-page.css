@@ -29,6 +29,7 @@
     .carousel-inner .active{
         background-color: transparent !important;
         box-shadow: none !important;
+        background-image: none !important;
     }   
 
     .page-content {        
@@ -55,7 +56,7 @@
 
     .small-jurusan-menu{
         margin-top: 15px;
-        margin-bottom: 0;
+        margin-bottom: 20px;
         display: flex;
         flex-wrap: unset;
         width: 100%;
@@ -83,7 +84,7 @@
     }
 
     .active, .button-jurusan:hover {
-        background-color: var(--primary) !important;
+        background-image: var(--gradient-1) !important;
         color: var(--white) !important;
         border-radius: 10px !important;
         box-shadow: 0px 5px 10px 1px rgb(57 145 201 / 18%);        
@@ -97,6 +98,7 @@
     .tab-content .active{
         background-color: transparent !important;
         box-shadow: none !important;
+        background-image: none !important;
     }
 
     .card{              

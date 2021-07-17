@@ -29,6 +29,7 @@
     .carousel-inner .active{
         background-color: transparent !important;
         box-shadow: none !important;
+        background-image: none !important;
     } 
 
     .page-content {        
@@ -85,7 +86,7 @@
     }
 
     .active, .button-prodi:hover {
-        background-color: var(--primary) !important;
+        background-image: var(--gradient-1) !important;
         color: var(--white) !important;
         border-radius: 10px !important;
         box-shadow: 0px 5px 10px 1px rgb(57 145 201 / 18%);        
@@ -100,6 +101,17 @@
 
     .tab-content .active{
         background-color: transparent !important;
+        background-image: none !important;
+    }
+
+    .rounded{
+        border-radius: 10px !important;
+    }
+
+    .custom-mini-prodi-col{
+        margin-top: 0px;
+        margin-bottom: 30px;
+        min-height: 130px;
     }
 
     .card{              
@@ -107,7 +119,8 @@
         flex-direction: column !important; 
         height: relative; 
         padding: 0px; 
-       
+        border-radius: 10px !important;
+        height: 100%;
     }
 
     .card-img-top{                
@@ -139,7 +152,6 @@
         display: flex;
         max-height: 100%;
         text-overflow: unset;
-
     }    
 
     .slider2 {
@@ -159,7 +171,7 @@
         text-align: left;
     }
     
-    .custom-login-btn{
+    .card .custom-more-btn{
         width: 66px;
         height: 20px;
         background-image: linear-gradient(#3991C9, #63BCF4);
@@ -168,7 +180,11 @@
         font-size: 7px;
         font-weight: 50;
         float: right;
-        margin-bottom: 20px;
+        border-radius: 6px !important;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-30%, 60%);
     }
 
     .search-form {
@@ -188,7 +204,8 @@
     }
 
     .search-bar{
-        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 20px;
     }
     
     .search-form-input {
@@ -229,7 +246,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
     .small-prodi-menu .nav-item button{ 
         width: 100%;
         height: 100%;
