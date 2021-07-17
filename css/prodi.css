@@ -1,4 +1,4 @@
-@media (max-width: 500px){
+@media (max-width: 500px){    
     .nav-back{
         display: flex;  
         top: 0;       
@@ -9,97 +9,214 @@
         z-index: 99;        
     }
 
-    .nav-back a{
-        z-index: 2 !important;
+    .nav-back a{        
         position: absolute;
         top: 36px;
-        color: var(--primary) !important;
+        color: var(--primary) !important;                
     }
 
+    .navback-home{
+        text-decoration: none; 
+        font-family: var(--font-family-body);
+    }
     .carousel-item img {
         width: 100%;    
         top: -26px !important;
         z-index: 1;
         border-radius: 15px;
-    }       
-
-    .navback-home{      
-        font-family: var(--font-family-body);
-        text-decoration: none;        
-    }       
+    }                 
 
     .page-content {        
         margin-top: 20px;     
-        padding-top: 0;  
+        padding-top: 0; 
+        padding-left: 26px;
+        padding-right: 26px; 
     }
 
-    .kuliah-itera{     
+    .main-text { 
+        margin-bottom: 20px;
+    }
+
+    .prodi-title-text{     
         font-family: var(--font-family-title); 
         font-weight: 700 !important;
         font-size: 20px;
+        margin-bottom: 10px;
     }
 
     .page-content p{        
         font-weight: 300;
         font-size: 10px;
+        line-height: 1.5;
     }
 
-    .jurusan-flexbox {
-        display: inline-flex;
-        position: absolute;
-        font-weight: 300;
-        gap: 30px;
+    .small-prodi-menu{
+        margin-top: 15px;
+        margin-bottom: 0;
+        display: flex;
+        flex-wrap: unset;
+        width: 100%;
+        justify-content:space-between !important;
     }
-    
-    .jurusan-flexbox a{ 
-        width: 100px;    
-        height: 100%;                  
-        text-decoration: none !important;
+
+    .small-prodi-menu .nav-item button{   
+        display: grid;
+        place-items: center;      
+        font-weight: 600;
+        width: 110px;    
+        height: 40px;                  
         font-family: var(--font-family-body);
         font-size: 13px; 
         text-align: center; 
         color: var(--grey); 
-        padding-top: 8px;
-        padding-bottom: 9px;
-        padding-left: 3px;
-        padding-right: 3px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px; 
+        border: none;
+        outline: none;
+        background-color: transparent;
     }
 
-    .button-hover:hover {
-        background-color: var(--primary);
-        color: var(--white);
+    .active, .button-prodi:hover {
+        background-color: var(--primary) !important;
+        color: var(--white) !important;
+        border-radius: 10px !important;        
+    }
+
+    .custom-card-prodi{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .tab-content .active{
+        background-color: transparent !important;
+    }
+
+    .card{              
+        display: flex; 
+        flex-direction: column !important; 
+        height: relative; 
+        padding: 0px; 
+       
+    }
+
+    .card-img-top{                
+        border-radius: 15px;
+        width: 100% !important;   
+        height: 100% !important;    
+    }
+
+    .card-body {    
+        max-height: 100%;
+        max-width: 100%;
+        padding-top: 2px;
+        padding-left: 10px ;
+        padding-right: 20px ;
+        padding-bottom: 20px;
+    }
+
+    .card-title{
+        padding-top: 3px;        
+        font-size: 10px;
+        float: left;
+        color: black;
+        font-weight: bold;
+    }
+
+    .card-text{
+        margin-bottom: 0px;
+        width: 100%;  
+        display: flex;
+        max-height: 100%;
+        text-overflow: unset;
+
+    }    
+
+    .slider2 {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .slider3 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .slider1 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .h6 {
+        text-align: left;
+    }
+    
+    .custom-login-btn{
+        width: 66px;
+        height: 20px;
+        background-image: linear-gradient(#3991C9, #63BCF4);
+        border: none;
+        font-family: var(--font-family-body);
+        font-size: 7px;
+        font-weight: 50;
+        float: right;
+        margin-bottom: 20px;
+    }
+
+    .search-form {
+        position: relative;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        float: left;
+        width: 100%;
+    }
+    
+    .search-form .fa-search {
+        position: absolute;
+        left: 20px;
+        font-size: 20px;
+        color: #4A4A4A;
+    }
+
+    .search-bar{
+        margin-bottom: 30px;
+    }
+    
+    .search-form-input {
+        height: 44px;
+        text-indent: 33px;
         border-radius: 10px;
+        padding: 20px;
+        font-family: var(--font-family-body);
+        font-size: 13px;
+        color: #666666;
+        background-color: #E4E4E4;
+        width: 100%;
+    }
+    
+    .search-form-input:focus, .search-form-input:hover, .search-form-input:active  {
+        box-shadow: none;
+        border: solid 1px var(--primary);
+        box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, .1);
+        background-color: #E4E4E4;
+    }
 
+    .filter-search-button{
+        background-image: linear-gradient(#3991C9, #63BCF4);
+        border-radius: 10px;
+        border: none;
+        text-decoration: none;
+        width: 44px;
+        height: 44px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .filter-search-button:hover, .filter-search-button:active, .filter-search-button:focus{
+        background-color: var(--secondary);
+        transform: scale(1.03);
+        box-shadow: 0px 5px 10px 5px rgba(57, 145, 201, 0.18);
     }
 }
 
-.slider2 {
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-.slider3 {
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-.slider1 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-.h6 {
-    text-align: left;
-    font-size: 7px;
-}
-
-.custom-login-btn{
-    width: 76px;
-    height: 25px;
-    background-image: linear-gradient(#3991C9, #63BCF4);
-    border: none;
-    font-family: var(--font-family-body);
-    font-size: 10px;
-    padding-top: 0px;
-    font-weight: 50;
-    float: right;
-    margin-bottom: 20px;
-}

@@ -1,7 +1,7 @@
 .main-wrapper{
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
     background-color: var(--page-background-1);
     padding: 0px;
@@ -102,6 +102,7 @@
         text-decoration: none;
         text-align: center;
         color: #A8A8A8 !important;
+        font-size: 10px;
     }    
 
     .leaderboard{
@@ -161,7 +162,7 @@
         padding-right: 20px;
         padding-top: 15px;
         padding-bottom: 15px;
-        box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, .1);
+        box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, .1);
         border: none;
         text-decoration: none;
         color: var(--font-color-primary);
@@ -174,7 +175,7 @@
     }
 
     .card-body{
-        max-width: 100px;
+        max-width: 120px;
         max-height: 146px;
         padding: 0;
     }
