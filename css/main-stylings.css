@@ -16,6 +16,7 @@
 :root {
     --primary: #3991C9;
     --secondary: #137cbd;
+    --gradient-1: linear-gradient(#3991C9, #63BCF4);
     --white: #fff;
     --black: #000;
     --grey: #C4C4C4;
@@ -68,6 +69,10 @@ p{
 .launch-logo.display-none{
     display: none;
     transition: all 1s;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: transparent;
 }
 
 @keyframes fade{

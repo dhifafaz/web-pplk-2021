@@ -1,0 +1,187 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: inherit;
+}
+
+.tugas-main-text {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 114.3%;
+}
+
+.tugas-main-title {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 114.3%;
+}
+
+@media (max-width: 500px){
+    
+
+    .tugas-content {
+        overflow-x: hidden;
+        transition: all 300ms ease;
+        z-index: 90;
+        padding-top: 42px;
+        padding-left: 26px;
+        padding-right: 26px;
+        padding-bottom: 80px;
+        padding-bottom: calc(80px + (constant(safe-area-inset-bottom))*1.1);
+        padding-bottom: calc(80px + (env(safe-area-inset-bottom))*1.1);
+    }
+
+    .tugas-search {
+        margin-bottom: 16px;
+    }
+
+    .tugas-search-icon {
+        margin-right: 16px;
+    }
+
+    .tugas-kelompok-card {
+        margin-bottom: 15px;
+        position: relative;
+        border-radius: 15px;
+        padding: 15px 23px 18px 23px;
+        width: 100%;
+        height: 164px;
+        background-color: var(--primary);
+        color: white;
+        box-shadow: 0px 5px 6px rgba(57, 145, 201, 0.18);
+    }
+
+    .tugas-daplok-img {
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+        border-radius: 50%;
+        position: absolute;
+        right: 24px;
+        top: -29px;
+        height: 104px;
+        width: 104px;
+        z-index: 1;
+    }
+
+    .tugas-daplok-text, .tugas-daplok-text>* {
+        margin-bottom: 0;
+        margin-top: 5px;
+        line-height: 100%;
+    }
+
+    .tugas-daplok-text>h6 {
+        font-size: 10px;
+    }
+
+    .tugas-circle {
+        position: absolute;
+    }
+
+    .tugas-circle1 {
+        transform-origin: top left;
+        top: 0;
+        left: 0;
+    }
+
+    .tugas-circle2 {
+        transform-origin: bottom right;
+        bottom: 0;
+        right: 0;
+    }
+
+    .tugas-menu {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: unset;
+        width: 100%;
+        justify-content:space-between !important;
+    }
+
+    .tugas-menu .nav-item button{   
+        display: grid;
+        place-items: center;      
+        font-weight: 600;
+        width: 110px;    
+        height: 40px;                  
+        font-family: var(--font-family-body);
+        font-size: 13px; 
+        text-align: center; 
+        color: var(--grey); 
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px; 
+        border: none;
+        outline: none;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+
+    .tugas-menu .active, .tugas-menu-item:hover {
+        background-image: var(--gradient-1) ;
+        color: var(--white) !important;
+        border-radius: 10px !important;
+        box-shadow: 0px 5px 10px 1px rgb(57 145 201 / 18%);        
+    }
+
+    .tugas-list-card {
+        overflow: hidden;
+        min-height: 245px;
+        border-radius: 15px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        margin-bottom: 25px;
+    }
+
+    .tugas-list-image {
+        border-radius: 15px;
+        background-color: #E0E0E0;
+        object-fit: contain;
+        object-position: center;
+        width: 100%;
+        height: 140px;
+    }
+
+    .tugas-list-content {
+        position: relative;
+        min-height: 105px;
+        padding: 10px 15px 12px 15px;
+    }
+
+    .tugas-list-content>p {
+        margin: 3px;
+    }
+
+    .tugas-list-date {
+        color: #636363;
+        float: right;
+    }
+
+    .tugas-list-assigned {
+        color: var(--primary);
+        font-weight: 600;
+    }
+
+    .tugas-list-title {
+        text-overflow: clip;
+        overflow: hidden;
+        font-size: 16px;
+        max-width: 65%;
+        max-height: 38px;
+    }
+
+    .tugas-list-status{
+        color: #636363;
+        position: absolute;
+        bottom: 12px;
+    }
+
+}

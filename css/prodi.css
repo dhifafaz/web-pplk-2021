@@ -24,7 +24,13 @@
         top: -26px !important;
         z-index: 1;
         border-radius: 15px;
-    }                 
+    } 
+    
+    .carousel-inner .active{
+        background-color: transparent !important;
+        box-shadow: none !important;
+        background-image: none !important;
+    } 
 
     .page-content {        
         margin-top: 20px;     
@@ -52,7 +58,7 @@
 
     .small-prodi-menu{
         margin-top: 15px;
-        margin-bottom: 0;
+        margin-bottom: 20px;
         display: flex;
         flex-wrap: unset;
         width: 100%;
@@ -76,21 +82,36 @@
         border: none;
         outline: none;
         background-color: transparent;
+        border-radius: 10px;
     }
 
     .active, .button-prodi:hover {
-        background-color: var(--primary) !important;
+        background-image: var(--gradient-1) !important;
         color: var(--white) !important;
-        border-radius: 10px !important;        
+        border-radius: 10px !important;
+        box-shadow: 0px 5px 10px 1px rgb(57 145 201 / 18%);        
     }
 
     .custom-card-prodi{
         margin-top: 20px;
         margin-bottom: 20px;
+        background-color: transparent !important;
+        box-shadow: none !important;
     }
 
     .tab-content .active{
         background-color: transparent !important;
+        background-image: none !important;
+    }
+
+    .rounded{
+        border-radius: 10px !important;
+    }
+
+    .custom-mini-prodi-col{
+        margin-top: 0px;
+        margin-bottom: 30px;
+        min-height: 130px;
     }
 
     .card{              
@@ -98,7 +119,8 @@
         flex-direction: column !important; 
         height: relative; 
         padding: 0px; 
-       
+        border-radius: 10px !important;
+        height: 100%;
     }
 
     .card-img-top{                
@@ -130,7 +152,6 @@
         display: flex;
         max-height: 100%;
         text-overflow: unset;
-
     }    
 
     .slider2 {
@@ -150,7 +171,7 @@
         text-align: left;
     }
     
-    .custom-login-btn{
+    .card .custom-more-btn{
         width: 66px;
         height: 20px;
         background-image: linear-gradient(#3991C9, #63BCF4);
@@ -159,7 +180,11 @@
         font-size: 7px;
         font-weight: 50;
         float: right;
-        margin-bottom: 20px;
+        border-radius: 6px !important;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-30%, 60%);
     }
 
     .search-form {
@@ -179,7 +204,8 @@
     }
 
     .search-bar{
-        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 20px;
     }
     
     .search-form-input {
@@ -217,6 +243,13 @@
         background-color: var(--secondary);
         transform: scale(1.03);
         box-shadow: 0px 5px 10px 5px rgba(57, 145, 201, 0.18);
+    }
+}
+
+@media (max-width: 360px) {
+    .small-prodi-menu .nav-item button{ 
+        width: 100%;
+        height: 100%;
     }
 }
 
