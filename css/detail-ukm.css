@@ -1,0 +1,73 @@
+@media (max-width: 500px){
+    .ukm-navback{
+        display: flex;  
+        top: 0;       
+        padding-left: 25px;
+        padding-right: 25px;   
+        border-radius: 15px !important;
+        overflow: hidden;
+        z-index: 99;        
+    }
+
+    .ukm-navback a{        
+        position: absolute;
+        top: 36px;
+        font-weight: 300;
+        color: var(--black) !important;                
+    }
+    
+    .first-headline {
+        display: flex; 
+        margin-top: 74px ;    
+        justify-content: space-between !important;
+        margin-bottom: 20px;   
+    }
+
+    .logo-ukm {
+        max-width: 40%;        
+    }
+
+    .logo-ukm img{
+        width: 100%;
+    }
+
+    .name-ukm{
+        margin-left: 10px;
+    }
+
+    .name-ukm h2{
+        font-weight: bold;
+    }
+
+    .name-ukm h5{
+        font-family: var(--font-family-body);
+        font-size: 13px;
+    }
+
+    .detail-headline h6{
+        font-family: var(--font-family-body);
+        font-size: 10px;
+        margin: 0px;
+    }
+
+    .detail-headline p{
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+
+    .second-headline {
+        margin-bottom: 20px;
+    }
+
+    .artikel-ukm h2{
+        margin-left: 14px;
+    }
+    
+    .artikel-custom {
+        column-gap: 20px;
+    }
+
+    .artikel-ukm img{
+        max-width: 100%;
+    }
+}
