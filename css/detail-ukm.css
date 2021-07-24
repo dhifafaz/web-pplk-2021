@@ -37,6 +37,7 @@
 
     .name-ukm h2{
         font-weight: bold;
+        margin: 0px;
     }
 
     .name-ukm h5{
@@ -60,6 +61,7 @@
     }
 
     .artikel-ukm h2{
+        font-weight: bold;
         margin-left: 14px;
     }
     
@@ -70,4 +72,64 @@
     .artikel-ukm img{
         max-width: 100%;
     }
+
+    .filo-ukm h2{
+        font-weight: bold;
+        margin-left: 14px; 
+    }
+
+    .filo-custom img{
+        width: 40%;
+        margin-bottom: 8px;
+    }
+
+    .detail-filosofi {
+        font-family: var(--font-family-body);
+        margin-left: 14px; 
+    }
+
+    .detail-filosofi h6{
+        margin: 0px;
+        font-weight: 600;
+    }
+
+    .detail-filosofi p{
+        font-size: 13px;
+    }
+
+    .last-headline h2{
+        font-weight: bold;
+        margin-left: 14px;
+    }
+
+    .last-headline p{
+        font-size: 13px;
+        margin-left: 14px; 
+    }
+    
+    .footer {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        display: flex;
+        background-color: var(--primary);
+        text-align: center;
+        position: absolute;
+    }
+
+    .footer-logo{
+        width: 10%; 
+    }
+
+    .footer img {
+        width: 100%;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+
+    .footer p{
+       font-size: 8px; 
+       margin-bottom: 0px;
+       color: var(--white);
+    }
+    
 }
