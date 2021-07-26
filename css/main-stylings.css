@@ -24,10 +24,12 @@
     --primary-color-2: rgba(91, 207, 197, 0.2);
     --font-family-title: Playfair Display, serif;
     --font-family-body: Open sans, sans-serif;
-    --font-color-primary: #071D2C; 
-    --font-color-secondary: #fff;
+    --font-color-primary: #174461; 
+    --font-color-primary-2: #FFFFFF;
+    --font-color-subheadline: #071D2C; 
+    --font-color-secondary: #686868;
     --font-size-base: 1rem;
-    --page-background-1: #fff;
+    --page-background-1: #F9FAFB;
     --page-background-2: #f6f6f6;
 }
 
