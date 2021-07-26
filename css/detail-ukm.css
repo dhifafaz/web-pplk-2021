@@ -119,7 +119,7 @@
         padding-right: 26px;
         display: flex;
         background-color: var(--primary);
-        text-align: center;
+        text-align: left;
         position: absolute;
         align-items: center;
     }
@@ -134,12 +134,24 @@
     }
 
     .footer p{
-       font-size: 8px; 
-       margin-bottom: 0px;
-       color: var(--white);
+        font-size: 8px; 
+        margin-bottom: 0px;
+        color: var(--white);
+    }
+
+    .detail-info{
+        margin-left: 10px;
+    }
+
+    .icon-sosmed{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 10px;
+        width: 25%;
     }
 
     .icon-sosmed img{
-        width: 15%;
+        width: 25%;
     }
 }
