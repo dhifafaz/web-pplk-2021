@@ -64,13 +64,18 @@
         font-weight: bold;
         margin-left: 14px;
     }
-    
+
     .artikel-custom {
-        column-gap: 20px;
+        font-family: var(--font-family-body);
+        margin-left: 14px; 
+    }
+    .artikel-custom h6{        
+        margin: 0px;
+        font-weight: 600;
     }
 
-    .artikel-ukm img{
-        max-width: 100%;
+    .artikel-custom p{
+        font-size: 13px;
     }
 
     .filo-ukm h2{
@@ -110,20 +115,22 @@
     .footer {
         padding-top: 12px;
         padding-bottom: 12px;
+        padding-left: 26px;
+        padding-right: 26px;
         display: flex;
         background-color: var(--primary);
         text-align: center;
         position: absolute;
+        align-items: center;
     }
 
     .footer-logo{
-        width: 10%; 
+        width: 10%;     
     }
 
     .footer img {
         width: 100%;
         border-radius: 20px;
-        margin-left: 20px;
     }
 
     .footer p{
@@ -131,5 +138,8 @@
        margin-bottom: 0px;
        color: var(--white);
     }
-    
+
+    .icon-sosmed img{
+        width: 15%;
+    }
 }
