@@ -182,18 +182,32 @@ a:hover{
     }
 
     .tugas-list-content {
-        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
         min-height: 105px;
         padding: 10px 15px 12px 15px;
     }
 
-    .tugas-list-content>p {
-        margin: 3px;
+    .tugas-list-content * {
+        margin: 0;
+    }
+
+    .tugas-list-content-left {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .tugas-list-date {
+        display: flex;
+        flex-direction: column;
         color: #636363;
-        float: right;
+    }
+
+    .tugas-list-date>* {
+        white-space: nowrap;
     }
 
     .tugas-list-assigned {
@@ -202,18 +216,18 @@ a:hover{
     }
 
     .tugas-list-title {
-        text-overflow: clip;
         overflow: hidden;
         font-size: 16px;
-        max-width: 65%;
-        max-height: 38px;
         color: var(--font-color-subheadline);
+        margin-bottom: 12px;
     }
 
     .tugas-list-status{
         color: #636363;
-        position: absolute;
-        bottom: 12px;
+    }
+
+    .tugas-list-status.late{
+        color: #E63844;
     }
 
 }
