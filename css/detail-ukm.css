@@ -6,14 +6,13 @@
         padding-right: 25px;   
         border-radius: 15px !important;
         overflow: hidden;
-        z-index: 99;        
+        margin-bottom: 20px;
     }
 
     .ukm-navback a{        
         position: absolute;
         top: 36px;
         font-weight: 300;
-        color: var(--black) !important;                
     }
     
     .first-headline {
@@ -55,6 +54,10 @@
         font-weight: 600;
         margin-bottom: 12px;
     }
+ 
+    .qr-code {
+        margin-bottom: 20px;
+    }
 
     .second-headline {
         margin-bottom: 20px;
@@ -65,13 +68,23 @@
         margin-left: 14px;
     }
 
+    .artikel-ukm img{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
     .artikel-custom {
         font-family: var(--font-family-body);
         margin-left: 14px; 
     }
-    .artikel-custom h6{        
+
+    .artikel-title h6{        
         margin: 0px;
         font-weight: 600;
+    }
+
+    .artikel-title p{ 
+       font-size: 10px !important; 
     }
 
     .artikel-custom p{
