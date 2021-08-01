@@ -1,0 +1,11 @@
+.page-content {
+    overflow-x: hidden;
+    transition: all 300ms ease;
+    z-index: 90;
+    padding-top: 0px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 0px;
+    padding-bottom: calc(80px + (constant(safe-area-inset-bottom))*1.1);
+    padding-bottom: calc(80px + (env(safe-area-inset-bottom))*1.1);
+}
