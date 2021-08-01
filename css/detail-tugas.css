@@ -29,6 +29,7 @@
 
 .bodytext {
     color: var(--font-color-secondary);
+    line-height: 110%;
 }
 
 .text-small {
@@ -140,13 +141,13 @@
     }
 
     .dTugas-materials-slider {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 10px 15px;
+        padding-left: 0;
         display: flex;
         flex-wrap: nowrap;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
-        margin-right: -60px;
+        margin-right: -25px;
         gap: 10px;
     }
 
@@ -253,7 +254,7 @@
         margin-bottom: 0;
     }
 
-    /* LATER WORK ======================================= */
+    /* LATER WORK START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
     .dTugas-attachment-icon {
         right: 0;
         margin: 0 20px;
@@ -291,5 +292,63 @@
     .dTugas-attachment-option {
         display: flex;
     }
-    /* LATER WORK ======================================= */
+    /* LATER WORK END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+    .dTugas-footer {
+        position: relative;
+        z-index: 99;
+        position: fixed;
+        bottom: 0;
+        height: 85px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 40px;
+        border-radius: 20px;
+        box-shadow: 0 -5px 8px 1px rgba(0, 0, 0, 0.08);
+    }
+
+    .dTugas-footer::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 50%;
+        left: -5%;
+        height: 80%;
+        width: 110%;
+        background-color: white;
+    }
+
+    .dTugas-footer-contact {
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+    }
+
+    .dTugas-footer-contact-text {
+        margin: 0 10px;
+    }
+
+    .dTugas-footer-contact-text p {
+        margin-bottom: 0;
+    }
+
+    .dTugas-footer-btn {
+        height: 42.97px;
+        width: 42.97px;
+        border-radius: 50%;
+        background: linear-gradient(324.49deg, #63BCF4 -41.47%, #479FD7 156.85%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* LATER WORK START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+    .dTugas-footer-submit-option {
+        display: none;
+    }
+    /* LATER WORK END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
 }
