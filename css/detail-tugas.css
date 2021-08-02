@@ -353,6 +353,10 @@
         margin: 0 5px;
     }
 
+    .dTugas-attachment-option span {
+        font-weight: 600;
+    }
+
     /* LATER WORK END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
     .dTugas-footer {
