@@ -279,12 +279,14 @@
     }
 
     .dTugas-attachment-info {
-        width: 100%;
+        width: 0;
+        flex: 1 1;
+        position: relative;
         margin: 0 10px;
     }
 
     .dTugas-attachment-info p {
-        max-width: 210px;
+        width: 100%;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
@@ -357,8 +359,6 @@
         font-weight: 600;
     }
 
-    /* LATER WORK END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-
     .dTugas-footer {
         position: relative;
         z-index: 99;
@@ -405,7 +405,7 @@
 
     /* LATER WORK START vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
     .dTugas-footer-submit-option {
-        display: none;
+        /* display: none; */
     }
     /* LATER WORK END ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
