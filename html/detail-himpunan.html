@@ -17,157 +17,138 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../css/bootstrap.css"></link>
         <link rel="stylesheet" href="../css/main-stylings.css"></link>
+        <link rel="stylesheet" href="../css/himpunan.css"></link>
         <link rel="shortcut icon" type="image/png" href="../assets/images/Logopplk-clearbg.png" />
 
-        <!-- Per Page Styling -->
+        <!--Per Page Styling-->
         <link rel="stylesheet" href="../css/detail-himpunan.css">
     </head>
     <body>
         <div class="main-wrapper">
             <!--NavBar-->
-            <div class="navbar p-0">
-                <div class="container-fluid nav-back">
-                    <a class="navback-home" href="#">
-                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M16.791 20.5832C16.791 20.5832 9.20768 16.0938 9.20768 12.9998C9.20768 9.90692 16.791 5.4165 16.791 5.4165"
-                                stroke="#3991C9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                        Kembali
+            <nav class="navbar p-0">
+                <div class="container-fluid  himpunan-navback">
+                    <a class="navback-home" href="../html/himpunan.html">
+                        <svg width="36" height="35" viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="0.0587158" width="36" height="34.5131" rx="10" fill="url(#paint0_linear)"/>
+                            <path d="M20.5625 24.5854C20.5625 24.5854 14.4375 20.2815 14.4375 17.3153C14.4375 14.3501 20.5625 10.0452 20.5625 10.0452" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                            <linearGradient id="paint0_linear" x1="26.9725" y1="67.5161" x2="-28.7342" y2="-13.9055" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.0187499" stop-color="#63BCF4"/>
+                            <stop offset="1" stop-color="#479FD7"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>                                                                 
                     </a>
                 </div>
-            </div>
-            <div class="page-content container">
-                <!--Head Content-->
-                <div class="head-content">
-                    <div class="card">
-                        <img class="card-pic" src="../assets/images/Muwaghei.png" alt="Logo">  
+            </nav>
+        </div>
+        <!--Content-->
+        <div class="page-content container">
+            <div class="first-custom">
+                <!--headline pertama-->
+                <div class="first-headline">
+                    <div class="logo-himpunan">
+                        <img src="../assets/images/himpunan-logo.png" alt="poster">
+                    </div>                   
+                    <div class="name-himpunan">
+                        <h2>Muwaghei</h2>
+                        <h5>Himpunan Mahasiswa Desain Komunikasi Visual</h5>
+                        <div class="detail-headline">
+                            <div class="pembina">
+                                <h6>Pembina</h6>
+                                <p>Dr. Ir. Agus</p>
+                            </div>
+                            <div class="ketua">
+                                <h6>Ketua Himpunan</h6>
+                                <p>Dr. Ir. Agus</p>
+                            </div>
+                            <div class="dies-natalis">
+                                <h6>Dies Natalis</h6>
+                                <p>10 Agustus 2010</p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>                
+                <!--headline kedua-->
+                <div class="second-headline">
+                    <div class="artikel-himpunan">
+                        <h2>Artikel</h2>
+                        <img src="../assets/images/jurusan-poster1.png">
+                        <div class="d-flex justify-content-between artikel-custom">
+                            <div class="artikel-1">
+                                <div class="artikel-title">
+                                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h6>
+                                    <p>2 Min read | 26 Oktober 2020</p>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis tempor tempor sollicitudin nunc euismod. Purus lobortis ut ornare lectus consectetur massa pellentesque tellus. Ac nisi, tincidunt cras tellus aliquam lectus aenean dui. Faucibus dictum odio hac montes, eget diam. Quisque lorem venenatis nunc eu tellus turpis. Leo nisl, adipiscing arcu lacus. Fringilla neque a lorem eget aliquet eget lectus morbi scelerisque. Quis pellentesque cras amet magna nibh in tortor diam mauris. At facilisis lorem a sagittis, egestas sit enim.
+Placerat semper nisl turpis mattis pharetra. Mattis fames mollis lobortis nibh habitant nulla. Cras bibendum magna nec nulla scelerisque amet mollis. Donec scelerisque id non in. </p>
+                            </div>                                                      
+                        </div>
                     </div>
-                    <div class="head-text">
-                        <h2 class="title-text">Muwaghei</h2>
-                            <h4 class="text-head">Himpunan Mahasiswa <br> 
-                                Desain Komunikasi Visual</h4>
-                            <div>
-                                <h6 class="head-text-head mb-0">Pembina</h6>
-                                <p class="head-text-hd mb-1">Dr. Ir. Agus Laesanpura, M.S.</p>
-                            </div>
-                            <div>
-                                <h6 class="head-text-head mb-0">Ketua Himpunan</h6>
-                                <p class="head-text-hd mb-1">Dr. Ir. Agus Laesanpura, M.S.</p>
-                            </div>
-                            <div>
-                                <h6 class="head-text-head mb-0">Dies Natalis</h6>
-                                <p class="head-text-hd mb-1">9 Februari 2020</p>
-                            </div>
+                </div>
+                <!--headline ketiga-->
+                <div class="third-headline">
+                    <div class="filo-himpunan">
+                        <h2>Filosofi Logo</h2>
+                    </div>
+                    <div class="d-flex justify-content-center filo-custom">
+                        <img src="../assets/images/ukm.png" alt="poster">
+                    </div>
+                    <div class="detail-filosofi">
+                        <div class="makna-1">
+                            <h6>Segi Empat</h6>
+                            <p>Segi empat menggabarkan stabilitas, kedamaian, solidaritas, dan kesetaraan</p>
+                        </div>
+                        <div class="makna-2">
+                            <h6>Segi Empat</h6>
+                            <p>Segi empat menggabarkan stabilitas, kedamaian, solidaritas, dan kesetaraan</p>
+                        </div>
+                        <div class="makna-3">
+                            <h6>Segi Empat</h6>
+                            <p>Segi empat menggabarkan stabilitas, kedamaian, solidaritas, dan kesetaraan</p>
+                        </div>
                     </div>
                 </div>
-                <h2 class="big-title-text">Artikel</h2>
-                <div class="article-info">
-                    <div class="card-article"></div>
-                    <div class="card-article"></div>
-                </div>
-                <h2 class="big-title-text">Filosofi Logo</h2>
-                <div class="logo justify-content-center">
-                    <img src="../assets/images/Muwaghei.png" style="max-width: 125px; max-height: 100%;" alt="Logo">
-                </div>
-                <div class="mb-2">
-                    <h3 class="text-hd">Segi Empat</h3>
-                    <p class="body-text">Segi empat menggabarkan stabilitas, kedamaian, 
-                    soliditas, dan kesetaraan.</p>
-                </div>
-                <div class="mb-2">
-                    <h3 class="text-hd">Simbol Gambar</h3>
-                    <p class="body-text">Sebagai simbol yang mempresentasikan bidang 
-                    Desain Komunikasi Visual Institut Teknologi
-                    Sumatera.</p>
-                </div>
-                <div class="mb-2">
-                    <h3 class="text-hd">Simbol Hati</h3>
-                    <p class="body-text">Menggambarkan perasaan bangga terhadap
-                    himpunan sekaligus menunjukkan kesatuan serta 
-                    kekeluargaan yang didukung dengan lingkungan 
-                    yang selalu mensupport.</p>
-                </div>
-                <div class="mb-2">
-                    <h3 class="text-hd">Huruf "M"</h3>
-                    <p class="body-text">Ruang kosong yang membentuk huruf “M” merupakan singkatan dari Muwaghei yang merupakan 
-                    panggilan untuk Himpunan Mahasiswa Desain 
-                    Komunikasi Visual Institut Teknologi Sumatera.</p>
-                </div>
-                <div class="mb-5">
-                    <h3 class="text-hd">Motif Kain Tapis Kapal</h3>
-                    <p class="body-text">Motif kain tapis kapal sebagai simbol yang 
-                    mewakili identitas MUWAGHEI yang berada di 
-                    Lampung dan Sumatera.</p>
-                </div>
-                <div class="mb-3">
-                    <h2 class="big-title-text">Visi</h2>
-                    <p class="body-text">Visi dari Muwaghei yaitu bisa mewadahi mahasiswa Desain Komunikasi Visual Institut Teknologi Sumatera dalam mengembangkan potensi dalam hal aspirasi, keilmuan, kreativitas, dan kebudayaan Sumatera serta memberikan semangat berkarya mahasiswa Desain Komunikasi Visual Institut Teknologi Sumatera untuk kebermanfaatan sosial.</p>
-                </div>
-                <div class="mb-5">
-                    <h2 class="big-title-text">Misi</h2>
-                    <p class="body-text">1.	Mengembangkan potensi mahasiswa Desain Komunikasi Visual Institut Teknologi Sumatera dalam hal keilmuan, kreativitas, dan kebudayaan Sumatera untuk kebermanfaatan sosial. </p>
-                    <p class="body-text">2.	Melaksanakan kegiatan kemahasiswaan dengan tujuan meningkatkan kreativitas mahasiswa Desain Komunikasi Visual Institut Teknologi Sumatera. </p> 
-                    <p class="body-text">3.	Menampung dan mengolah aspirasi serta inspirasi mahasiswa Desain Komunikasi Visual Institut Teknologi Sumatera melalui kegiatan peningkatan wawasan Desain Komunikasi Visual.</p> 
-                    <p class="body-text">4.	Menjalin kerja sama kekeluargaan dengan Himpunan Program Studi Desain Komunikasi Visual yang ada di Institut Teknologi Sumatera yang selaras dengan pengembangan potensi budaya Sumatera. Untuk berkerja sama meningkatkan semangat berkarya, keahlian, dan memperluas ilmu pengetahuan dalam bidang Desain Komunikasi Visual.</p>
-                </div>
+                <!--headline keempat-->
+                <div class="last-headline">
+                    <div class="visi-himpunan">                    
+                        <h2>Visi</h2>
+                        <p>Visi dari Muwaghei yaitu bisa mewadahi mahasiswa Desain Komunikasi Visual Institut Teknologi Sumatera dalam mengembangkan potensi dalam hal aspirasi, keilmuan, kreativitas, dan kebudayaan Sumatera serta memberikan semangat berkarya mahasiswa Desain Komunikasi Visual Institut Teknologi Sumatera untuk kebermanfaatan sosial.</p>
+                    </div>
+                    <!--headline kelima-->
+                    <div class="misi-himpunan">
+                        <h2>Misi</h2>
+                        <p>1.	Mengembangkan potensi mahasiswa Desain Komunikasi Visual Institut Teknologi Sumatera dalam hal keilmuan, kreativitas, dan kebudayaan Sumatera untuk kebermanfaatan sosial.</p>
+                        <p>2.	Melaksanakan kegiatan kemahasiswaan dengan tujuan meningkatkan kreativitas mahasiswa Desain Komunikasi Visual Institut Teknologi Sumatera</p>
+                        <p>3.	Menampung dan mengolah aspirasi serta inspirasi mahasiswa Desain Komunikasi Visual Institut Teknologi Sumatera melalui kegiatan peningkatan wawasan Desain Komunikasi Visual.</p>
+                        <p>4.	Menjalin kerja sama kekeluargaan dengan Himpunan Program Studi Desain Komunikasi Visual yang ada di Institut Teknologi Sumatera yang selaras dengan pengembangan potensi budaya Sumatera. Untuk berkerja sama meningkatkan semangat berkarya, keahlian, dan memperluas ilmu pengetahuan dalam bidang Desain Komunikasi Visual.</p>
+                    </div>
+                </div>                
             </div>
-            <!--Footer-->
-            <div class="footer justify-content-around">
-                <div class="footer-logo">
-                    <img src="../assets/images/LOGO PPLK.png">
-                </div>
-                <div>
-                    <p>Copyright © 2016 UPT TIK -
-                        Institut Teknologi Sumatera (ITERA)</p>
-                    <p>https://sap.itera.ac.id</p>
-                    <p>Telepon : 07218030188 – 07218030189</p>
-                </div>
-                <div>
-                    <svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.46098 1.35813C9.13907 1.50113 8.79265 1.59744 8.42931 1.64093C8.80024 1.41854 9.08508 1.06658 9.21904 0.647198C8.87233 0.85324 8.48738 1.00237 8.07851 1.08321C7.75077 0.734168 7.28353 0.515869 6.76726 0.515869C5.77528 0.515869 4.97096 1.32019 4.97096 2.31217C4.97096 2.45284 4.98701 2.59 5.01765 2.72162C3.52458 2.64691 2.20107 1.9316 1.31503 0.844777C1.16035 1.11006 1.07193 1.41854 1.07193 1.74774C1.07193 2.37083 1.38858 2.92066 1.87099 3.24286C1.57623 3.23352 1.29956 3.15268 1.05704 3.01814V3.04061C1.05704 3.91118 1.67663 4.637 2.49787 4.80247C2.34728 4.84333 2.18852 4.86551 2.0248 4.86551C1.90893 4.86551 1.79628 4.85413 1.68655 4.83311C1.91506 5.54667 2.57871 6.06616 3.36465 6.08075C2.75003 6.56229 1.97547 6.84975 1.1338 6.84975C0.988458 6.84975 0.845455 6.84129 0.705078 6.82436C1.50006 7.33392 2.44417 7.6316 3.45862 7.6316C6.76259 7.6316 8.56939 4.8944 8.56939 2.52083C8.56939 2.44291 8.56793 2.36528 8.56414 2.28853C8.91552 2.03463 9.2202 1.71827 9.46098 1.35813Z" fill="url(#paint0_linear)"/>
-                        <defs>
-                        <linearGradient id="paint0_linear" x1="7.70455" y1="0.878047" x2="5.91828" y2="7.84573" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#3991C9"/>
-                        <stop offset="1" stop-color="#63BCF4"/>
-                        </linearGradient>
-                        </defs>
-                    </svg>
-                    <svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.45478 0.612475C9.61006 0.789853 9.72195 1.0106 9.77931 1.25275C10.1096 2.77143 10.0333 5.16996 9.78573 6.74725C9.72837 6.98939 9.61648 7.21015 9.46119 7.38752C9.30591 7.5649 9.11266 7.69272 8.90068 7.75824C8.12467 8 5.00135 8 5.00135 8C5.00135 8 1.87804 8 1.10203 7.75824C0.890049 7.69272 0.696796 7.5649 0.541515 7.38752C0.386234 7.21015 0.274341 6.98939 0.216981 6.74725C-0.115232 5.23517 -0.0241617 2.83517 0.210568 1.26007C0.267928 1.01793 0.37982 0.797177 0.535102 0.6198C0.690383 0.442422 0.883635 0.314606 1.09561 0.249086C1.87163 0.00732422 4.99494 0 4.99494 0C4.99494 0 8.11825 0 8.89427 0.241757C9.10625 0.307282 9.2995 0.435098 9.45478 0.612475ZM6.59187 4L4.00087 5.71428V2.28571L6.59187 4Z" fill="url(#paint0_linear)"/>
-                        <defs>
-                        <linearGradient id="paint0_linear" x1="7.99401" y1="0.407186" x2="6.01331" y2="8.25572" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#3991C9"/>
-                        <stop offset="1" stop-color="#63BCF4"/>
-                        </linearGradient>
-                        </defs>
-                    </svg>
-                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4.91927 1.40939C6.14931 1.40939 6.29502 1.41409 6.78078 1.43625C7.22994 1.45673 7.47386 1.53178 7.63619 1.59487C7.85122 1.67844 8.00468 1.77826 8.16588 1.93946C8.32709 2.10067 8.42692 2.25413 8.51049 2.46916C8.57358 2.63149 8.64863 2.87542 8.66911 3.32457C8.69127 3.81033 8.69597 3.95604 8.69597 5.18608C8.69597 6.41614 8.69127 6.56184 8.66911 7.04761C8.64863 7.49676 8.57358 7.74068 8.51049 7.90301C8.42692 8.11804 8.32709 8.2715 8.1659 8.4327C8.00468 8.59391 7.85122 8.69374 7.63619 8.77731C7.47386 8.84039 7.22994 8.91544 6.78078 8.93592C6.29509 8.95809 6.1494 8.96279 4.91927 8.96279C3.68911 8.96279 3.54344 8.95809 3.05773 8.93592C2.60858 8.91544 2.36465 8.84039 2.20232 8.77731C1.98729 8.69374 1.83383 8.59391 1.67264 8.4327C1.51144 8.2715 1.41159 8.11804 1.32803 7.90301C1.26494 7.74068 1.18989 7.49676 1.16941 7.04761C1.14724 6.56184 1.14254 6.41614 1.14254 5.18608C1.14254 3.95604 1.14724 3.81033 1.16941 3.32457C1.18989 2.87542 1.26494 2.63149 1.32803 2.46916C1.41159 2.25413 1.51142 2.10067 1.67264 1.93948C1.83383 1.77826 1.98729 1.67844 2.20232 1.59487C2.36465 1.53178 2.60858 1.45673 3.05773 1.43625C3.5435 1.41409 3.6892 1.40939 4.91927 1.40939ZM4.91927 0.579346C3.66814 0.579346 3.51126 0.584649 3.0199 0.607068C2.52956 0.629432 2.19468 0.707315 1.90166 0.821185C1.59872 0.938913 1.34181 1.09643 1.08569 1.35253C0.829589 1.60866 0.672068 1.86556 0.554358 2.1685C0.440469 2.46152 0.362587 2.7964 0.340222 3.28673C0.317803 3.77809 0.3125 3.93497 0.3125 5.18608C0.3125 6.4372 0.317803 6.59408 0.340222 7.08544C0.362587 7.57577 0.440469 7.91065 0.554358 8.20368C0.672068 8.50661 0.829589 8.76352 1.08569 9.01964C1.34181 9.27574 1.59872 9.43326 1.90166 9.55097C2.19468 9.66486 2.52956 9.74274 3.0199 9.76511C3.51126 9.78753 3.66814 9.79283 4.91927 9.79283C6.17038 9.79283 6.32726 9.78753 6.81862 9.76511C7.30895 9.74274 7.64383 9.66486 7.93686 9.55097C8.23979 9.43326 8.4967 9.27574 8.75282 9.01964C9.00892 8.76352 9.16645 8.50661 9.28417 8.20368C9.39804 7.91065 9.47593 7.57577 9.49829 7.08544C9.52071 6.59408 9.52601 6.4372 9.52601 5.18608C9.52601 3.93497 9.52071 3.77809 9.49829 3.28673C9.47593 2.7964 9.39804 2.46152 9.28417 2.1685C9.16645 1.86556 9.00892 1.60866 8.75282 1.35253C8.4967 1.09643 8.23979 0.938913 7.93686 0.821185C7.64383 0.707315 7.30895 0.629432 6.81862 0.607068C6.32726 0.584649 6.17038 0.579346 4.91927 0.579346Z" fill="url(#paint0_linear)"/>
-                        <path d="M4.92033 2.82251C3.61381 2.82251 2.55469 3.88163 2.55469 5.18812C2.55469 6.49464 3.61381 7.55376 4.92033 7.55376C6.22683 7.55376 7.28595 6.49464 7.28595 5.18812C7.28595 3.88163 6.22683 2.82251 4.92033 2.82251ZM4.92033 6.72371C4.07223 6.72371 3.38473 6.03621 3.38473 5.18812C3.38473 4.34005 4.07223 3.65255 4.92033 3.65255C5.7684 3.65255 6.4559 4.34005 6.4559 5.18812C6.4559 6.03621 5.7684 6.72371 4.92033 6.72371Z" fill="url(#paint1_linear)"/>
-                        <path d="M7.93375 2.72769C7.93375 3.03298 7.68624 3.28049 7.38093 3.28049C7.07563 3.28049 6.82812 3.03298 6.82812 2.72769C6.82812 2.42237 7.07563 2.17487 7.38093 2.17487C7.68624 2.17487 7.93375 2.42237 7.93375 2.72769Z" fill="url(#paint2_linear)"/>
-                        <defs>
-                        <linearGradient id="paint0_linear" x1="7.67779" y1="1.0483" x2="4.91927" y2="9.79283" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#3991C9"/>
-                        <stop offset="1" stop-color="#63BCF4"/>
-                        </linearGradient>
-                        <linearGradient id="paint1_linear" x1="6.33686" y1="3.06332" x2="4.92033" y2="7.55376" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#3991C9"/>
-                        <stop offset="1" stop-color="#63BCF4"/>
-                        </linearGradient>
-                        <linearGradient id="paint2_linear" x1="7.71196" y1="2.23114" x2="7.38094" y2="3.28049" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#3991C9"/>
-                        <stop offset="1" stop-color="#63BCF4"/>
-                        </linearGradient>
-                        </defs>
-                    </svg>                      
-                </div>
+        </div>
+        <!--footer-->
+        <div class="footer justify-content-around">
+            <div class="footer-logo">
+                <img src="../assets/images/logo-footer.png">
+            </div>
+            <div class="detail-info">
+                <p>Copyright © 2016 UPT TIK -
+                    Institut Teknologi Sumatera (ITERA)</p>
+                <p>https://sap.itera.ac.id</p>
+                <p>Telepon : 07218030188 – 07218030189</p>
+            </div>
+            <div class="icon-sosmed">
+                <img src="../assets/images/twiter.png">
+                <img src="../assets/images/yutub.png">
+                <img src="../assets/images/ige.png">                                     
             </div>
         </div>
     </body>
+
     <!-- Required JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="../js/bootstrap.bundle.js"></script>
     <script src="../js/custom.js"></script>
     <!--script-->
-</html>  
+</html>

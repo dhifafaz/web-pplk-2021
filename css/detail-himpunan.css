@@ -1,150 +1,175 @@
-@media(max-width: 500px) {
-    .nav-back {
-        display: flex;
-        top: 0;
+@media (max-width: 500px){
+    .himpunan-navback{
+        display: flex;  
+        top: 0;       
         padding-left: 25px;
-        padding-right: 25px;
+        padding-right: 25px;   
         border-radius: 15px !important;
         overflow: hidden;
-        z-index: 99;
-    }
-
-    .nav-back a {
-        position: absolute;
-        top: 20px;
-        color: var(--primary) !important;
-    }
-
-    .navback-home {
-        text-decoration: none;
-        font-family: var(--font-family-body);
-    }
-
-    .page-content {        
-        margin-top: 20px;     
-        padding-top: 20px; 
-        padding-left: 26px;
-        padding-right: 26px; 
-    }
-
-    .head-content {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 100%;
-        column-gap: 5px;
         margin-bottom: 20px;
-        padding-top: 20px;
     }
 
-    .card {
-        display: flex;
-        max-width: 50%;
-        padding: 10px;
-        border-radius: 20px;
-        float: left;
-        overflow: auto;
+    .himpunan-navback a{        
+        position: absolute;
+        top: 36px;
+        font-weight: 300;
+    }
+    
+    .first-headline {
+        display: flex; 
+        margin-top: 74px ;    
+        justify-content: space-between !important;
+        margin-bottom: 20px;   
     }
 
-    .head-text {
-        float: right !important;
+    .logo-himpunan {
+        max-width: 40%;        
     }
 
-    .title-text{
+    .logo-himpunan img{
+        width: 100%;
+    }
+
+    .name-himpunan{
+        margin-left: 10px;
+    }
+
+    .name-himpunan h2{
+        font-weight: bold;
         margin: 0px;
     }
 
-    .text-head {
-        color: #686868;
-        font-size: 13px;
-        font-weight: 400;
+    .name-himpunan h5{
+        font-family: var(--font-family-body);
+        font-size: 14px;
     }
 
-    .text-hd {
-        font-size: 16px;
-        font-weight: 400;
+    .detail-headline h6{
+        font-family: var(--font-family-body);
+        font-size: 10px;
+        margin: 0px;
     }
 
-    .body-text {
-        color: #686868;
-        font-size: 13px;
-        font-weight: 400;
+    .detail-headline p{
+        font-weight: 600;
+        margin-bottom: 12px;
     }
 
-    .head-text-head {
-        font-size: 11px;
-        color: #686868;
+    .second-headline {
+        margin-bottom: 20px;
     }
 
-    .head-text-hd {
-        font-size: 11px;
-        color: #686868;
+    .artikel-himpunan h2{
+        font-weight: bold;
+        margin-left: 14px;
     }
 
-    .big-title-text {     
-        font-family: var(--font-family-title); 
-        font-weight: 700 !important;
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-    .article-info{
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        padding-bottom: 20px;
-        padding-left: 5px;
-        padding-right: 10px;
-        margin-bottom: 5px;
-        margin-top: 5px;
-        gap: 20px;
-    }
-
-    .card-article {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-        min-height: 104px;
+    .artikel-himpunan img{
         width: 100%;
-        border-radius: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, .1);
-        border: none;
-        text-decoration: none;
-        color: var(--font-color-primary);
+        margin-bottom: 16px;
     }
 
-    .logo {
-        display: grid;
-        align-items: center;
-        margin: 10px;
+    .artikel-custom {
+        font-family: var(--font-family-body);
+        margin-left: 14px; 
     }
 
+    .artikel-title h6{        
+        margin: 0px;
+        font-weight: 600;
+    }
+
+    .artikel-title p{ 
+       font-size: 10px !important;        
+    }
+
+    .artikel-custom p{
+        font-size: 13px;
+    }
+
+    .third-headline{
+        margin-bottom: 20px;
+    }
+
+    .filo-himpunan h2{
+        font-weight: bold;
+        margin-left: 14px; 
+    }
+
+    .filo-custom img{
+        width: 40%;
+        margin-bottom: 8px;
+    }
+
+    .detail-filosofi {
+        font-family: var(--font-family-body);
+        margin-left: 14px; 
+    }
+
+    .detail-filosofi h6{
+        margin: 0px;
+        font-weight: 600;
+    }
+
+    .detail-filosofi p{
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .last-headline{
+        margin-bottom: 20px;
+    }
+
+    .last-headline h2{
+        font-weight: bold;
+        margin-left: 14px;
+    }
+
+    .last-headline p{
+        font-size: 13px;
+        margin-left: 14px; 
+    }
+    
     .footer {
         padding-top: 12px;
         padding-bottom: 12px;
+        padding-left: 26px;
+        padding-right: 26px;
         display: flex;
         background-color: var(--primary);
-        text-align: center;
+        text-align: left;
         position: absolute;
+        align-items: center;
     }
 
     .footer-logo{
-        width: 10%; 
+        width: 10%;     
     }
 
     .footer img {
         width: 100%;
         border-radius: 20px;
-        margin-left: 10px;
     }
 
     .footer p{
-       font-size: 8px; 
-       margin-bottom: 0px;
-       color: var(--white);
+        font-size: 8px; 
+        margin-bottom: 0px;
+        color: var(--white);
     }
 
+    .detail-info{
+        margin-left: 10px;
+    }
+
+    .icon-sosmed{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 10px;
+        width: 25%;
+    }
+
+    .icon-sosmed img{
+        width: 25%;
+    }
 }
