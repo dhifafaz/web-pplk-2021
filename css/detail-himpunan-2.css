@@ -18,19 +18,19 @@
        flex-direction: row !important;
    }
 
-   .name-ukm{       
+   .name-himpunan{       
        width: 60%;
        z-index: 1;
        margin-top: 20px;
        margin-left: 20px;
    }
 
-   .name-ukm h2{
+   .name-himpunan h2{
         font-weight: bold;
         margin: 0px;
    }
 
-   .name-ukm h5{
+   .name-himpunan h5{
         font-family: var(--font-family-body);
         font-size: 14px;
    }
@@ -46,30 +46,23 @@
         margin-bottom: 12px;
     }
 
-   .logo-ukm{
+   .logo-himpunan {
        margin-top: 20px;
        margin-right: 20px;
        width:20%;
        z-index: 2;
    }
 
-   .logo-ukm img{           
+   .logo-himpunan img{           
        width: 100%;
-   }
-
-   .qr-code {
-       max-width: 120px !important;
-       position: absolute;       
-       top: 75%;
-       left: 60%;       
-   }
+   }   
 
    .second-headline{
         margin-top: 130px;
         margin-bottom: 20px;
    }
 
-   .artikel-ukm img{
+   .artikel-himpunan img{
        width: 100%;
        margin-bottom: 16px;
    }
@@ -86,14 +79,14 @@
     }
 
     .artikel-title p{ 
-    font-size: 10px !important; 
+        font-size: 10px !important; 
     }
 
     .artikel-custom p{
         font-size: 13px;
     }
 
-    .custom-ukm{
+    .custom-himpunan{
         display: flex; 
         flex-direction: column !important; 
         height: relative; 
@@ -147,7 +140,7 @@
         width: 10%;     
     }
 
-    .small-ukm-menu{
+    .small-himpunan-menu{
         margin-top: 15px;
         margin-bottom: 20px;
         display: flex;
@@ -156,7 +149,7 @@
         justify-content:space-between !important;
     }
 
-    .small-ukm-menu .nav-item button{   
+    .small-himpunan-menu .nav-item button{   
         display: grid;
         place-items: center;      
         font-weight: 600;
@@ -176,7 +169,7 @@
         border-radius: 10px;
     }
 
-    .active, .button-ukm:hover {
+    .active, .button-himpunan:hover {
         background-image: var(--gradient-1) !important;
         color: var(--white) !important;
         border-radius: 10px !important;
@@ -212,7 +205,7 @@
 }
 
 @media (max-width: 360px) {
-    .small-ukm-menu .nav-item button {
+    .small-himpunan-menu .nav-item button {
         width: 90px !important;
         height: 100%;
     }
