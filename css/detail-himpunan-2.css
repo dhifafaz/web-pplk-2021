@@ -206,7 +206,7 @@
 
 @media (max-width: 360px) {
     .small-himpunan-menu .nav-item button {
-        width: 100%;
+        width: 90px !important;
         height: 100%;
     }
 }
