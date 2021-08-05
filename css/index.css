@@ -129,6 +129,23 @@
         padding-right: 0;
     }
 
+    .greetings{
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+
+    .greetings h1{
+        font-size: 20px;
+        font-weight: 800;
+        color: var(--font-color-primary);
+
+    }
+
+    .greetings p {
+        font-size: 13px;
+        color: var(--font-color-subheadline);
+    }
+
     .scrolling-wrapper-flexbox{
         display: flex;
         flex-wrap: nowrap;
@@ -261,9 +278,9 @@
         background-color: var(--page-background-1);
         border-radius: 15px 15px 0px 0 ;
         box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.15);
-        padding-bottom: 80px;
-        padding-bottom: calc(80px + (constant(safe-area-inset-bottom))*1.1);
-        padding-bottom: calc(80px + (env(safe-area-inset-bottom))*1.1);
+        padding-bottom: 120px;
+        padding-bottom: calc(120px + (constant(safe-area-inset-bottom))*1.1);
+        padding-bottom: calc(120px + (env(safe-area-inset-bottom))*1.1);
     }
 
     .search-form {
@@ -317,13 +334,14 @@
         margin-top: 20px;
         margin-bottom: 20px;
         color: var(--font-color-subheadline);
+        font-weight: 800;
     }
 
     .info-card{
         padding-left: 20px;
         padding-right: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         width: 100%;
         min-height: 160px !important;
         margin-bottom: 30px;
@@ -333,18 +351,19 @@
     }
 
     .info-card-img-container{
-        max-width: 35%;
-        max-height: 100%;
+        display: grid;
+        place-items: center;
+        max-width: 80%;
+        height: 100%;
     }
 
     .info-card img{
         width: 100%;
-        height: 45%;
     }
 
     .info-card-body{
         max-width: 65%;
-        max-height: 125px;
+        height: 100%;
     }
 
     .info-card-title{
@@ -358,40 +377,159 @@
         font-size: 8px;
         font-weight: 300;
         width: 100%;  
+        height:5.5rem;
     }
 
     .info-card-text{
         overflow:hidden;
         line-height: 1.5;
-        max-height: 6rem;
+        max-height: 7rem;
         -webkit-box-orient: vertical;
         display: block;
         display: -webkit-box;
         overflow: hidden !important;
         text-overflow: ellipsis;
-        -webkit-line-clamp: 5;
+        -webkit-line-clamp: 6;
     }
 
-    .article-date-category{
-        margin-bottom: 5px;
-        margin-top: 5px;
-        display: flex;
-        align-items: center;
-    }
-
-    .detailed-info{
-        display: flex;
-        float: left;
-        gap: 5px;
-        align-items: center;
-        width: 50px;
-    }
-
-    .detailed-info p{
-        margin: 0;
-        font-size: 6px;
+    .custom-more-btn{
+        width: 66px;
+        height: 20px;
+        background-image: linear-gradient(#3991C9, #63BCF4);
+        border: none;
         font-family: var(--font-family-body);
+        font-size: 7px;
+        font-weight: 50;
+        float: left;
+        border-radius: 6px !important;
     }
 
+    .fun-fact-card{
+        background-color: var(--primary);
+        padding-left: 40px;
+        padding-right: 40px;
+        height: 150px;
+    }
 
+    .fun-fact-prev, .fun-fact-next{
+        opacity: 1 !important;
+    }
+
+    .circle{
+        position: absolute;
+        background-color: var(--white);
+        border-radius: 50%;
+        padding: 10px;
+        width: 25px ;
+        height: 25px;
+        z-index: -10;
+    }
+
+    .fun-fact-prev .carousel-control-prev-icon, .fun-fact-next .carousel-control-next-icon{
+        background-color: transparent;
+        border-radius: 50%;
+        width: 16px ;
+        height: 16px;
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%233991C9'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+    }
+    
+    .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%233991C9'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    }
+
+    .fun-fact-card .card-body{
+        width: 100%;
+        max-width: 100%;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .fun-fact-card .card-body .card-title{
+        color: var(--font-color-subheadline);
+        font-weight: 700;
+        font-family: var(--font-family-body);
+        font-size: 16px;
+    }
+
+    .fun-fact-card .card-body .card-text{
+        color: var(--white);
+        font-weight: 400;
+        font-family: var(--font-family-body);
+        font-size: 13px;
+    }
+
+    .fun-fact-card .card-body .card-title {
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .fun-fact-card .card-body .card-title:before,
+    .fun-fact-card .card-body .card-title:after {
+        background-color: var(--font-color-subheadline);
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 50%;
+    }
+    
+    .fun-fact-card .card-body .card-title:before {
+        right: 0.5em;
+        margin-left: -50%;
+    }
+    
+    .fun-fact-card .card-body .card-title:after {
+        left: 0.5em;
+        margin-right: -50%;
+    }
+
+    .sponsor-container{
+        margin-top: 20px;
+        margin-left: -26px;
+        margin-right: -26px;
+    }
+
+    .sponsor-container h2{
+        text-align: center;
+        color: var(--font-color-subheadline);
+        font-weight: 700;
+        font-family: var(--font-family-body);
+        font-size: 16px;
+    }
+
+    #carouselSponsor{
+        margin-top: 20px;
+    }
+
+    .sponsor-container .carousel-indicators{
+        margin-top: 40px;
+        position: absolute;
+        bottom: 0;
+        transform: translate(0, 160%);
+    }
+
+    .sponsor-container .carousel-indicators button{
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #C4C4C4;
+    }
+
+    .sponsor-card{
+        padding: 0;
+        background-color:#E0E0E0;
+        height: 200px;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .sponsor-card .row > *{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
 }
