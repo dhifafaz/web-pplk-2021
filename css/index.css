@@ -206,7 +206,7 @@
         font-size: 10px;
         font-weight: 300;
         width: 100%;
-        color: var(--font-color-secondary);
+        color: var(--font-color-subheadline);
     }
 
     .card-text{
@@ -537,6 +537,10 @@
 
     .sponsor-card .row{
         margin: 0!important;
+    }
+
+    .modal-content{
+        border-radius: 15px;
     }
 
     #sponsorModal .modal-title{

@@ -24,6 +24,7 @@
         top: -26px !important;
         z-index: 1;
         border-radius: 15px;
+        filter: brightness(70%);
     } 
     
     .carousel-inner .active{
@@ -54,6 +55,7 @@
         font-weight: 300;
         font-size: 10px;
         line-height: 1.5;
+        color: var(--font-color-secondary);
     }
 
     .small-prodi-menu{
@@ -142,7 +144,7 @@
         padding-top: 3px;        
         font-size: 10px;
         float: left;
-        color: black;
+        color: var(--font-color-subheadline);
         font-weight: bold;
     }
 

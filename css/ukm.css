@@ -50,6 +50,7 @@
         font-weight: 300;
         font-size: 10px;
         line-height: 1.5;
+        color: var(--font-color-secondary);
     }
 
     .custom-mini-ukm-col{
@@ -81,7 +82,7 @@
         padding-top: 3px;
         font-size: 10px;
         float: left;
-        color: black;
+        color: var(--font-color-subheadline);
         font-weight: bold;
     }
 
