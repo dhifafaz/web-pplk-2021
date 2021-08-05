@@ -523,7 +523,7 @@
     .sponsor-card{
         padding: 0;
         background-color:#E0E0E0;
-        height: 200px;
+        height: 125px;
         border-radius: 0;
         width: 100%;
     }
@@ -531,5 +531,37 @@
     .sponsor-card .row > *{
         padding-left: 0!important;
         padding-right: 0!important;
+        display: grid;
+        place-items: center;
+    }
+
+    .sponsor-card .row{
+        margin: 0!important;
+    }
+
+    #sponsorModal .modal-title{
+        text-align: center; 
+        color: var(--font-color-subheadline) !important;
+        font-weight: 700;
+        font-family: var(--font-family-body);
+        font-size: 16px;
+    }
+
+    .modal-body{
+        height: 200px;
+    }
+
+    .modal-body .carousel-indicators{
+        margin-top: 40px;
+        position: absolute;
+        bottom: 0;
+        transform: translate(0, 160%);
+    }
+
+    .modal-body .carousel-indicators button{
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #C4C4C4;
     }
 }

@@ -21,10 +21,99 @@
 
         <!-- Per Page Styling -->
         <link rel="stylesheet" href="../css/index.css"></link>
+
+        <script>
+            $(document).ready(function(){
+                $("#sponsorModal").modal('show');
+            });
+        </script>
     </head>
 
     <body>
         <div class="main-wrapper">
+
+            <!-- Modal sponsor -->
+            <div class="modal" id="sponsorModal" tabindex="-1" aria-labelledby="sponsorModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="col-12 modal-title text-center" id="sponsorModalLabel">
+                            Sponsored By
+                        </h2>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselSponsor" class="carousel slide sponsor-carousel" data-bs-ride="carousel" data-bs-interval="3000">
+							<div class="carousel-indicators">
+								<button type="button" data-bs-target="#carouselSponsor" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+								<button type="button" data-bs-target="#carouselSponsor" data-bs-slide-to="1" aria-label="Slide 2"></button>
+								<button type="button" data-bs-target="#carouselSponsor" data-bs-slide-to="2" aria-label="Slide 3"></button>
+							  </div>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="card sponsor-card container">
+										<div class="row row-cols-3">
+											<div class="col">
+												<img src="../assets/images/pdip-red.png" alt="gambar-sponsor">
+											</div>
+											<div class="col">
+												<img src="../assets/images/pdip-red.png" alt="gambar-sponsor">
+											</div>
+											<div class="col">
+												<img src="../assets/images/pdip-red.png" alt="gambar-sponsor">
+											</div>
+											<div class="col">
+												<img src="../assets/images/pdip-red.png" alt="gambar-sponsor">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="card sponsor-card">
+										<div class="card sponsor-card container">
+											<div class="row row-cols-3">
+												<div class="col">
+													<img src="../assets/images/owi.jpeg" alt="gambar-sponsor">
+												</div>
+												<div class="col">
+													<img src="../assets/images/owi.jpeg" alt="gambar-sponsor">
+												</div>
+												<div class="col">
+													<img src="../assets/images/owi.jpeg" alt="gambar-sponsor">
+												</div>
+												<div class="col">
+													<img src="../assets/images/owi.jpeg" alt="gambar-sponsor">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="card sponsor-card">
+										<div class="card sponsor-card container">
+											<div class="row row-cols-3">
+												<div class="col">
+													<img src="../assets/images/master.jpeg" alt="gambar-sponsor">
+												</div>
+												<div class="col">
+													<img src="../assets/images/master.jpeg" alt="gambar-sponsor">
+												</div>
+												<div class="col">
+													<img src="../assets/images/master.jpeg" alt="gambar-sponsor">
+												</div>
+												<div class="col">
+													<img src="../assets/images/master.jpeg" alt="gambar-sponsor">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             <!-- Navbar -->
             <nav class="navbar p-0">
                 <div class="container-fluid head-bar">
@@ -350,7 +439,7 @@
 							<div class="carousel-inner">
 								<div class="carousel-item active">
 									<div class="card sponsor-card container">
-										<div class="row row-cols-2">
+										<div class="row row-cols-3">
 											<div class="col">
 												<img src="../assets/images/pdip-red.png" alt="gambar-sponsor">
 											</div>
@@ -369,7 +458,7 @@
 								<div class="carousel-item">
 									<div class="card sponsor-card">
 										<div class="card sponsor-card container">
-											<div class="row row-cols-2">
+											<div class="row row-cols-3">
 												<div class="col">
 													<img src="../assets/images/owi.jpeg" alt="gambar-sponsor">
 												</div>
@@ -389,7 +478,7 @@
 								<div class="carousel-item">
 									<div class="card sponsor-card">
 										<div class="card sponsor-card container">
-											<div class="row row-cols-2">
+											<div class="row row-cols-3">
 												<div class="col">
 													<img src="../assets/images/master.jpeg" alt="gambar-sponsor">
 												</div>
