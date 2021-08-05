@@ -21,8 +21,10 @@
    .name-ukm{       
        width: 60%;
        z-index: 1;
-       margin-top: 20px;
-       margin-left: 20px;
+       padding-top: 20px;
+       padding-left: 20px;
+       padding-bottom: 20px;
+       
    }
 
    .name-ukm h2{
@@ -46,11 +48,22 @@
         margin-bottom: 12px;
     }
 
+    .right-side-card{
+        width: 140px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .dies-natalis p{
+        margin:0;
+    }
+
    .logo-ukm{
-       margin-top: 20px;
-       margin-right: 20px;
-       width:20%;
+       float: right;
+       width:70%;
        z-index: 2;
+       margin-bottom: 70%;
    }
 
    .logo-ukm img{           
@@ -58,10 +71,7 @@
    }
 
    .qr-code {
-       max-width: 120px !important;
-       position: absolute;       
-       top: 75%;
-       left: 60%;       
+       width: 100%;
    }
 
    .second-headline{
