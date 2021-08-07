@@ -44,6 +44,10 @@ $('#drop-bg').click(function (e) {
     e.stopPropagation()
     dropContentSwitch()
 });
+$('.dTugas-footer-option').click(function (e) {
+    e.stopPropagation()
+    dropContentSwitch()
+});
 
 function dropContentSwitch() {
     $('#dTugas-footer-dropContentWrapper').toggleClass('dTugas-show')

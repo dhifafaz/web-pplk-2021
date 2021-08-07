@@ -340,17 +340,7 @@ a {
     
     .dTugas-options-show  {
         display: block;
-        animation: dTugas-attachment-options 0.2s;
-    }
-
-    @keyframes dTugas-attachment-options {
-        0% {
-            opacity: 0.0;
-        }
-
-        100% {
-            opacity: 1.0;
-        }
+        animation: dTugas-fade 0.2s;
     }
 
     .dTugas-attachment-options a {
@@ -496,23 +486,12 @@ a {
 
     .dTugas-show {
         display: block;
-        animation: opacity 0.2s ease;
+        animation: dTugas-fade 0.2s ease;
     }
 
-    @keyframes opacity {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
+    .dTugas-modal {
+        animation: dTugas-fade 0.5s ease-out;
     }
-
-    /* .dTugas-popup-submit{
-        position: fixed;
-        top: 0;
-        left: 0;
-    } */
 
     .dTugas-modal-title {
         font-weight: 600;
@@ -533,6 +512,21 @@ a {
         color: white;
         border-radius: 10px;
         float: right;
+    }
+
+    .dTugas-modal-content {
+        border-radius: 10px;
+    }
+
+    /* KEYFRAMES */
+
+    @keyframes dTugas-fade {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
     }
 
 }
