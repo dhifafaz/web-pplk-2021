@@ -18,19 +18,21 @@
        flex-direction: row !important;
    }
 
-   .name-himpunan{       
+   .name-ukm{       
        width: 60%;
        z-index: 1;
-       margin-top: 20px;
-       margin-left: 20px;
+       padding-top: 20px;
+       padding-left: 20px;
+       padding-bottom: 20px;
+       
    }
 
-   .name-himpunan h2{
+   .name-ukm h2{
         font-weight: bold;
         margin: 0px;
    }
 
-   .name-himpunan h5{
+   .name-ukm h5{
         font-family: var(--font-family-body);
         font-size: 14px;
    }
@@ -46,23 +48,38 @@
         margin-bottom: 12px;
     }
 
-   .logo-himpunan {
-       margin-top: 20px;
-       margin-right: 20px;
-       width:20%;
+    .right-side-card{
+        width: 140px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .dies-natalis p{
+        margin:0;
+    }
+
+   .logo-ukm{
+       float: right;
+       width:70%;
        z-index: 2;
+       margin-bottom: 70%;
    }
 
-   .logo-himpunan img{           
+   .logo-ukm img{           
        width: 100%;
-   }   
+   }
+
+   .qr-code {
+       width: 100%;
+   }
 
    .second-headline{
         margin-top: 130px;
         margin-bottom: 20px;
    }
 
-   .artikel-himpunan img{
+   .artikel-ukm img{
        width: 100%;
        margin-bottom: 16px;
    }
@@ -79,14 +96,14 @@
     }
 
     .artikel-title p{ 
-        font-size: 10px !important; 
+    font-size: 10px !important; 
     }
 
     .artikel-custom p{
         font-size: 13px;
     }
 
-    .custom-himpunan{
+    .custom-ukm{
         display: flex; 
         flex-direction: column !important; 
         height: relative; 
@@ -140,7 +157,7 @@
         width: 10%;     
     }
 
-    .small-himpunan-menu{
+    .small-ukm-menu{
         margin-top: 15px;
         margin-bottom: 20px;
         display: flex;
@@ -149,7 +166,7 @@
         justify-content:space-between !important;
     }
 
-    .small-himpunan-menu .nav-item button{   
+    .small-ukm-menu .nav-item button{   
         display: grid;
         place-items: center;      
         font-weight: 600;
@@ -169,11 +186,17 @@
         border-radius: 10px;
     }
 
-    .active, .button-himpunan:hover {
+    .active, .button-ukm:hover {
         background-image: var(--gradient-1) !important;
         color: var(--white) !important;
         border-radius: 10px !important;
         box-shadow: 0px 5px 10px 1px rgb(57 145 201 / 18%);        
+    }
+
+    .tab-content .active {
+        background-color: transparent !important;
+        box-shadow: none !important;
+        background-image: none !important;
     }
 
     .footer img {
@@ -205,8 +228,8 @@
 }
 
 @media (max-width: 360px) {
-    .small-himpunan-menu .nav-item button {
-        width: 100%;
+    .small-ukm-menu .nav-item button {
+        width: 90px !important;
         height: 100%;
     }
 }
