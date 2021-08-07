@@ -49,10 +49,18 @@
         margin-bottom: 10px;
     }
 
+    .page-content {
+        margin-top: 20px;
+        padding-top: 0;
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+
     .page-content p{        
         font-weight: 300;
         font-size: 10px;
         line-height: 1.5;
+        color: var(--font-color-secondary);
     }
 
     .small-jurusan-menu{

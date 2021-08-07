@@ -59,6 +59,7 @@ p{
     font-family: var(--font-family-body);
     font-weight: 400;
     font-size: 16px;
+    color: var(font-color-secondary);
 }
 
 .launch-logo{
