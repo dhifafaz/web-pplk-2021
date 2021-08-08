@@ -43,6 +43,16 @@ a:hover{
     .scrolled {
         position: fixed;
         z-index: 2;
+        animation: scrolled 0.5s ease-out;
+    }
+
+    @keyframes scrolled {
+        from {
+            top: -60px;
+        }
+        to {
+            top: 0px;
+        }
     }
 
     .tugas-content {
