@@ -71,13 +71,29 @@
                             <textarea name="keluhan" id="keluhan" cols="30" rows="10" class="fill"></textarea>
                         </div>
                         <div class="col-sm-12 mt-4">
-                            <button name="submit" type="button" class="btn btn-primary rounded custom-login-btn" data-bs-toggle="modal" data-bs-target="#kirimLaporan">
+                            <button name="submit" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary rounded custom-login-btn">
                                 Kirim Laporan
                             </button>
                         </div>
                     </form>
                 </div> 
             </div>
+            <div class="modal container-fluid" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="../assets/images/thumbs-up.png" alt="thumbs-up" class="thumbs-up">
+                            <h2>Terima Kasih!</h2>
+                            <p>Laporan kamu telah 
+                                kami simpan. Silahkan 
+                                tunggu tanggapan dari kami. </p>
+                        </div>
+                        <div class="modal-back">
+                            <button class="close-button" data-bs-dismiss="modal" aria-label="Close">Kembali ke Awal</button>
+                        </div>
+                  </div>
+                </div>
+              </div>
         </div>
         <!-- Required JS -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
