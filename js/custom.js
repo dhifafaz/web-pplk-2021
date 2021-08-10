@@ -1,10 +1,12 @@
 const splash = document.querySelector('.launch-logo');
 const login = document.querySelector('.login-page');
+const bg = document.querySelector('.bg-container');
 
 document.addEventListener('DOMContentLoaded', (e) => {
     setTimeout(() => {
         splash.classList.add('display-none');
-        login.classList.add('display')
+        login.classList.add('display');
+        bg.classList.add('display');     
     }, 4000);
 })
 

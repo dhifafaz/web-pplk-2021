@@ -24,7 +24,7 @@
         background-color: var(--primary);
     }
 
-    .card {
+    .custom-page {
         margin-top: 50px;
         display: flex;
         max-width: 100%;  
@@ -34,33 +34,29 @@
         background-color: #fefefe;
     }
 
-    .desc-text {
+    .card h2{
         text-align: center;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    } 
+
+    .col {
+        margin-bottom: 10px;
     }
 
-    .code {
-        margin-top: 20%;
-        padding: 10px;
-        display: flex;
-        align-items: center;
+    .custom-divisi {
+        border-radius: 15px !important;
+        box-shadow: 2px 1px 3px var(--grey); 
+        height: 220px;                   
     }
 
-    .subhead-text {
-        font-size: 16px;
-        font-weight: 600;
+    .rounded{
+        border-radius: 15px !important;
     }
 
-    .body-text {
-        font-size: 13px;
-        font-weight: 400;
-    }
-
-    .code img{
-        width: 75%;
-        min-height: 50px;
-    }
-
-    .margin-code {
-        margin-bottom: 158px;
+    .card-title{
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
     }
 }
