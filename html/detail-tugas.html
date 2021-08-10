@@ -397,13 +397,15 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <form class="form-inline dTugas-modal-form">
-                                <div class="form-group">
-                                    <label class="dTugas-modal-label subheadline" for="gallery-input">Pilih Foto/Video : </label>
-                                    <input class="form-control" type="file" accept="image/*,video/*" id="gallery-input" multiple>
-                                </div>
-                                <button class="btn dTugas-modal-submit" type="submit">Tambah</button>
-                            </form>
+                            <div style="height: 100%; flex: 1;">
+                                <form class="form-inline dTugas-modal-form">
+                                    <div class="form-group">
+                                        <label class="dTugas-modal-label subheadline" for="gallery-input">Pilih Foto/Video : </label>
+                                        <input class="form-control" type="file" accept="image/*,video/*" id="gallery-input" multiple>
+                                    </div>
+                                    <button class="btn dTugas-modal-submit" type="submit" onclick="alert('Submitted : \n' + $('#gallery-input').val())">Tambah</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -421,7 +423,7 @@
                                     <label class="dTugas-modal-label subheadline" for="docs-input">Pilih File : </label>
                                     <input class="form-control" type="file" id="docs-input" multiple>
                                 </div>
-                                <button class="btn dTugas-modal-submit" type="submit">Tambah</button>
+                                <button class="btn dTugas-modal-submit" type="submit" onclick="alert('Submitted : \n' + $('#docs-input').val())">Tambah</button>
                             </form>
                         </div>
                     </div>
@@ -435,10 +437,9 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <form class="form-inline dTugas-modal-form dTugas-modal-text-form">
-                                <input class="form-control" type="text" id="text-header-input" placeholder="Header">
-                                <textarea class="form-control" id="text-bodytext-input" placeholder="Bodytext"></textarea>
-                                <button class="btn dTugas-modal-submit" type="submit">Tambah</button>
+                            <form class="form-inline dTugas-modal-form">
+                                <textarea class="form-control" id="text-input" placeholder="Isi Disini..."></textarea>
+                                <button class="btn dTugas-modal-submit" type="submit" onclick="alert('Submitted : \n' + $('#text-input').val())">Tambah</button>
                             </form>
                         </div>
                     </div>
