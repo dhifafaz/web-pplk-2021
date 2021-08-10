@@ -47,7 +47,7 @@ a {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
     
     .dTugas-top {
         position: relative;
@@ -110,8 +110,8 @@ a {
     }
 
     .dTugas-top-title {
-        width: 160px;
-        max-width: 60%;
+        /* width: 160px; */
+        max-width: 65%;
         line-height: 114%;
         margin-bottom: 0;
     }
@@ -119,13 +119,13 @@ a {
     .dTugas-top-img {
         /* object-fit: cover;
         object-position: center; */
-        bottom: 8px;
-        right: 28px;
+        bottom: 0px;
+        right: 0px;
         position: absolute;
         /* height: 183px;
         width: 183px; */
-        height: 44.2vw;
-        width: 44.2vw;
+        height: 183px;
+        width: 183px;
         z-index: -1;
     }
     
