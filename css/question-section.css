@@ -130,6 +130,7 @@ a:hover {
     }
 
     .question-time-span {
+        position: absolute;
         font-size: 16px;
         font-weight: 600;
         color: #63BCF4;
