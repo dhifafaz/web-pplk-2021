@@ -57,12 +57,12 @@
     }
 
     .redeem-input {
-        display: flex;
+        display: grid;
         width: 75%;
         gap: 5px;
         align-items: center;
         padding: 10px;
-        margin-left: 45px;
+        margin: auto;
     }
 
     .redeem-input label {
