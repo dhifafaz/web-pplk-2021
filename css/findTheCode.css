@@ -26,9 +26,10 @@
         margin-top: 0px;
         margin-bottom: 30px;
         min-height: 130px;
+        max-width: 100%;
     }
 
-    .card {
+    .card-ftc {
         display: flex; 
         flex-direction: column !important; 
         height: relative; 
@@ -38,13 +39,13 @@
         box-shadow: 0px 3px 8px 1px rgb(0 0 0 / 10%);
     }
 
-    .card-body {
+    .card-body-ftc {
         max-height: 100%;
         max-width: 100%;
         padding-top: 2px;
         padding-left: 10px;
-        padding-right: 20px;
-        padding-bottom: 20px;
+        padding-right: 10px;
+        padding-bottom: 10px;
     }
 
     .headline-text {
@@ -53,11 +54,21 @@
         margin-bottom: 30px;
     }
 
-    .rounded {
+    .rounded-ftc {
         border-radius: 10px !important;
     }
 
     .headline-text p {
         font-size: 16px;
+    }
+
+    .card-ftc img {
+        min-height: 90px;
+    }
+
+    .card-title-ftc h2 {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 13px;
     }
 }
